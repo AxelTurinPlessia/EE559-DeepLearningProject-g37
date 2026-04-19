@@ -3,6 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 .env
+.easyocr/
 .DS_Store
 
 results/
