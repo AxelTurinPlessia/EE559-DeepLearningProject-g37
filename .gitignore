@@ -18,3 +18,8 @@ fruit_dataset/
 *.pt
 *.pth
 *.ckpt
+.hf-cache/
+results/
+*.safetensors
+*.bin
+*.pt
