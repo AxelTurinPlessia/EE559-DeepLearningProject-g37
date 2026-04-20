@@ -1,0 +1,24 @@
+name: dl_project
+channels:
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.10
+
+  # libs simples
+  - numpy=1.26
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - pillow
+
+  # PyTorch CPU (local Mac)
+  - pytorch
+  - torchvision
+
+  - pip
+  - pip:
+      - easyocr
