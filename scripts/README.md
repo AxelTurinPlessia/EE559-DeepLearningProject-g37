@@ -1,5 +1,51 @@
 # Data Scripts
 
+## Load External Text Datasets
+
+Download the public CSV files from EDOS, Online Misogyny EACL 2021, and
+Hatemoji, then write a normalized combined text-classification table:
+
+```bash
+python scripts/load_external_datasets.py --print-summary
+```
+
+By default this caches source CSVs under:
+
+```text
+datasets/
+```
+
+and writes:
+
+```text
+datasets/combined_external_datasets.csv
+```
+
+The combined CSV uses a shared schema:
+
+```text
+dataset,source_repo,source_url,source_file,sample_id,split,text,binary_label,label_text,task
+```
+
+Source-specific columns are retained when available. For Online Misogyny,
+`image_files` records expected image filenames if you have the image directory
+locally; the loader downloads CSV files only.
+
+Useful options:
+
+```bash
+# Use already-downloaded source CSVs only.
+python scripts/load_external_datasets.py --no-download
+
+# Load only the datasets used by the current RoBERTa training recipe.
+python scripts/load_external_datasets.py \
+  --datasets edos online_misogyny hatemoji_build \
+  --output datasets/roberta_emoji_sources.csv
+
+# Keep ambiguous rows such as conflicting Online Misogyny labels.
+python scripts/load_external_datasets.py --keep-unlabeled
+```
+
 ## Regenerate OCR Results
 
 Run EasyOCR on the dataset image directory and save the OCR cache:
@@ -55,7 +101,7 @@ datasets/online-misogyny-eacl2021-main/data/final_labels.csv
 and writes:
 
 ```text
-datasets/online-misogyny-eacl2021-main/data/post_ocr_dataset.csv
+datasets/post_ocr_dataset.csv
 ```
 
 The output columns are:

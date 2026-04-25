@@ -25,7 +25,8 @@ OUTPUT_COLUMNS = [
 
 def parse_args() -> argparse.Namespace:
     project_root = Path(__file__).resolve().parents[1]
-    data_dir = project_root / "datasets" / "online-misogyny-eacl2021-main" / "data"
+    datasets_dir = project_root / "datasets"
+    data_dir = datasets_dir / "online-misogyny-eacl2021-main" / "data"
 
     parser = argparse.ArgumentParser(
         description="Build a compact one-row-per-post dataset with OCR fields."
@@ -51,7 +52,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=data_dir / "post_ocr_dataset.csv",
+        default=datasets_dir / "post_ocr_dataset.csv",
         help="Output CSV path.",
     )
     return parser.parse_args()

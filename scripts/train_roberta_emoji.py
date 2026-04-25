@@ -30,7 +30,7 @@ def parse_args():
     parser.add_argument("--edos_path", type=Path,
         default=Path("datasets/edos/data/edos_labelled_aggregated.csv"))
     parser.add_argument("--test_path", type=Path,
-        default=Path("datasets/online-misogyny-eacl2021-main/data/post_ocr_dataset.csv"))
+        default=Path("datasets/post_ocr_dataset.csv"))
     parser.add_argument("--output_dir", type=Path,
         default=Path("results/roberta_emoji"))
     parser.add_argument("--model_name", type=str, default="roberta-base")
