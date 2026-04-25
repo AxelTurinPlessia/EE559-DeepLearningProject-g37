@@ -55,7 +55,7 @@ datasets/online-misogyny-eacl2021-main/data/final_labels.csv
 and writes:
 
 ```text
-datasets/online-misogyny-eacl2021-main/data/post_ocr_dataset.csv
+datasets/post_ocr_dataset.csv
 ```
 
 The output columns are:
