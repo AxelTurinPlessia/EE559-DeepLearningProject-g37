@@ -1,4 +1,6 @@
 from pathlib import Path
+import json
+from datetime import datetime
 
 import pandas as pd
 from datasets import Dataset
@@ -64,3 +66,21 @@ trainer = Trainer(
 metrics = trainer.evaluate(test_dataset)
 print("Test results:")
 print(metrics)
+
+# Save test results to file
+results_file = Path("results") / "test_results.json"
+results_file.parent.mkdir(parents=True, exist_ok=True)
+
+test_summary = {
+    "timestamp": datetime.now().isoformat(),
+    "test_dataset": str(TEST_CSV),
+    "checkpoint_used": str(checkpoint_dir),
+    "test_metrics": metrics
+}
+
+with open(results_file, "w") as f:
+    json.dump(test_summary, f, indent=2)
+
+print("\n" + "="*50)
+print(f"Test results saved to: {results_file}")
+print("="*50)
