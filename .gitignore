@@ -18,3 +18,7 @@ fruit_dataset/
 *.pt
 *.pth
 *.ckpt
+
+.hf-cache/
+results/
+__pycache__/
