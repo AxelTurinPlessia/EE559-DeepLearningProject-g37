@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import os
 
 # load dataset 
-df = pd.read_csv("edos/data/edos_labelled_aggregated.csv")
+df = pd.read_csv("datasets/edos/data/edos_labelled_aggregated.csv")
 
 # we only keep the sexism text and clean the labels
 df = df[["text", "label_sexist"]]
