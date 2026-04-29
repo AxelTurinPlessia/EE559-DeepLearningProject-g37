@@ -109,3 +109,28 @@ The output columns are:
 ```text
 post_id,label,raw_post_text,image_exists,ocr_text,ocr_readable
 ```
+
+## Test BERT On Post/OCR Data
+
+Evaluate an already fine-tuned BERT checkpoint on the same held-out post/OCR
+dataset used by the RoBERTa script, without retraining:
+
+```bash
+python scripts/test_BERT.py --model_path /path/to/bert/checkpoint
+```
+
+By default this reads:
+
+```text
+datasets/post_ocr_dataset.csv
+```
+
+and writes:
+
+```text
+results/bert_post_ocr/classification_report.txt
+results/bert_post_ocr/metrics.json
+results/bert_post_ocr/post_ocr_predictions.csv
+```
+
+Use `--no_ocr_text` to evaluate on raw post text only.
