@@ -8,3 +8,6 @@ pillow
 torch
 torchvision
 easyocr
+transformers
+emoji
+accelerate
