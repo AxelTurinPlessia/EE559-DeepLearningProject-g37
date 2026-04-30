@@ -110,6 +110,42 @@ The output columns are:
 post_id,label,raw_post_text,image_exists,ocr_text,ocr_readable
 ```
 
+## Create Mixed RoBERTa + Post/OCR Splits
+
+Create reproducible train/validation/test CSVs for finetuning RoBERTa on the
+current text sources plus post/OCR data:
+
+```bash
+python scripts/create_mixed_roberta_dataset.py
+```
+
+By default, this writes:
+
+```text
+datasets/roberta_mixed_post_ocr/train.csv
+datasets/roberta_mixed_post_ocr/val.csv
+datasets/roberta_mixed_post_ocr/test.csv
+datasets/roberta_mixed_post_ocr/all.csv
+datasets/roberta_mixed_post_ocr/summary.json
+```
+
+The original RoBERTa sources are split 85/15 for train/validation. The
+post/OCR dataset is split 70/15/15 for train/validation/test, with the final
+test set kept post/OCR-only.
+
+Train, validate, and test RoBERTa on these mixed splits:
+
+```bash
+python scripts/train_roberta_mixed.py \
+  --split_dir datasets/roberta_mixed_post_ocr \
+  --model_name results/roberta_emoji/model \
+  --output_dir results/roberta_mixed_post_ocr
+```
+
+The trainer saves the best validation-macro-F1 checkpoint under
+`best_model/`, reloads it, and then evaluates once on the held-out post/OCR
+test split.
+
 ## Test BERT On Post/OCR Data
 
 Evaluate an already fine-tuned BERT checkpoint on the same held-out post/OCR
