@@ -12,7 +12,9 @@ wandb/
 logs/
 
 data/
-datasets/
+datasets/*
+!datasets/synthetic/
+!datasets/synthetic/**
 fruit_dataset/
 
 *.pt

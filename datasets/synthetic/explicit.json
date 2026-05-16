@@ -1,0 +1,1002 @@
+[
+{
+"id": "explicit_0001",
+"text": "Women are useless in serious debates.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly demeans women as a group."
+},
+{
+"id": "explicit_0002",
+"text": "Every woman in that meeting was a waste of time 🙄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly insults women in the meeting because they are women."
+},
+{
+"id": "explicit_0003",
+"text": "Women bring nothing useful to strategy discussions.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly claims women have no value in a professional context."
+},
+{
+"id": "explicit_0004",
+"text": "A female opinion on this topic is automatically worthless.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It dismisses women's opinions based only on gender."
+},
+{
+"id": "explicit_0005",
+"text": "Women are the weakest part of every team 😂",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It makes a direct derogatory claim about women as team members."
+},
+{
+"id": "explicit_0006",
+"text": "No woman ever makes a technical discussion better.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly disparages women in technical contexts."
+},
+{
+"id": "explicit_0007",
+"text": "Women are terrible at anything that requires logic.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly attacks women's intelligence and reasoning ability."
+},
+{
+"id": "explicit_0008",
+"text": "Female managers are a joke 😒",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly mocks women in management roles."
+},
+{
+"id": "explicit_0009",
+"text": "Women are embarrassing when they try to sound smart.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It demeans women for expressing intelligence."
+},
+{
+"id": "explicit_0010",
+"text": "A woman leading this project is already a bad sign.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It frames female leadership as inherently negative."
+},
+{
+"id": "explicit_0011",
+"text": "Women always lower the level of the conversation 🤦",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly claims women reduce the quality of discussion."
+},
+{
+"id": "explicit_0012",
+"text": "Female experts are just hard to take seriously.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly dismisses women experts as not credible."
+},
+{
+"id": "explicit_0013",
+"text": "Women are bad at leadership, simple as that.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly states a negative generalization about women's leadership."
+},
+{
+"id": "explicit_0014",
+"text": "Her whole argument was female nonsense 🙃",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It dismisses her argument using gendered contempt."
+},
+{
+"id": "explicit_0015",
+"text": "Women are not built for serious thinking.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly denies women intellectual ability."
+},
+{
+"id": "explicit_0016",
+"text": "A woman explaining finance is always painful to watch.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly demeans women discussing finance."
+},
+{
+"id": "explicit_0017",
+"text": "Women ruin the vibe whenever real work starts 😑",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly portrays women as harmful to work settings."
+},
+{
+"id": "explicit_0018",
+"text": "Female ambition is usually just annoying.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly attacks women's ambition."
+},
+{
+"id": "explicit_0019",
+"text": "Women are the reason standards keep dropping.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It blames women as a group for declining standards."
+},
+{
+"id": "explicit_0020",
+"text": "Nothing useful starts with letting women decide 😏",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "explicit_derogation",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It explicitly devalues women's decision-making."
+},
+{
+"id": "explicit_0021",
+"text": "Women should stay out of competitive gaming.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly excludes women from a social activity."
+},
+{
+"id": "explicit_0022",
+"text": "No women on the engineering team, please 🙄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It calls for excluding women from engineering."
+},
+{
+"id": "explicit_0023",
+"text": "Women do not belong in trading rooms.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly states women should be excluded from a professional setting."
+},
+{
+"id": "explicit_0024",
+"text": "Keep women away from the serious technical work.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly argues women should be barred from technical tasks."
+},
+{
+"id": "explicit_0025",
+"text": "This club was better before women joined 😒",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It implies women should not be part of the club."
+},
+{
+"id": "explicit_0026",
+"text": "Women should not be allowed to lead strategy meetings.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly excludes women from leadership roles."
+},
+{
+"id": "explicit_0027",
+"text": "A female analyst should not be assigned to this account.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It seeks to exclude a woman from work based on gender."
+},
+{
+"id": "explicit_0028",
+"text": "Women should sit this one out 😂",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It mocks the idea of women participating."
+},
+{
+"id": "explicit_0029",
+"text": "Do not put women in charge of financial decisions.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly argues women should be barred from financial authority."
+},
+{
+"id": "explicit_0030",
+"text": "Women have no place in this industry.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly denies women belonging in an industry."
+},
+{
+"id": "explicit_0031",
+"text": "This server should be men only 🙃",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It promotes excluding women from an online space."
+},
+{
+"id": "explicit_0032",
+"text": "Women should not be part of high-pressure roles.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It excludes women from demanding work based on gender."
+},
+{
+"id": "explicit_0033",
+"text": "No female voices needed in this debate.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly dismisses women's participation in discussion."
+},
+{
+"id": "explicit_0034",
+"text": "Women should leave the coding to others 💻",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It argues women should be excluded from coding."
+},
+{
+"id": "explicit_0035",
+"text": "Do not invite women if we want a serious panel.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It excludes women by claiming they undermine seriousness."
+},
+{
+"id": "explicit_0036",
+"text": "Women should stay away from political analysis.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly excludes women from political discussion."
+},
+{
+"id": "explicit_0037",
+"text": "This project needs fewer women and more competence 😬",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It equates fewer women with greater competence."
+},
+{
+"id": "explicit_0038",
+"text": "Keep women out of the boardroom.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly supports excluding women from leadership spaces."
+},
+{
+"id": "explicit_0039",
+"text": "Women should not be accepted into this program.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It directly argues against admitting women."
+},
+{
+"id": "explicit_0040",
+"text": "The tournament should have stayed male only 🏆",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "exclusionary_statement",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly supports excluding women from the tournament."
+},
+{
+"id": "explicit_0041",
+"text": "Women always turn simple problems into drama.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It makes a hostile blanket claim about women."
+},
+{
+"id": "explicit_0042",
+"text": "Every woman in the office complains about everything 🙄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It generalizes women as chronic complainers."
+},
+{
+"id": "explicit_0043",
+"text": "Women always need attention in every discussion.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It uses a negative stereotype to attack women as a group."
+},
+{
+"id": "explicit_0044",
+"text": "Women make every workplace more difficult.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It blames women generally for workplace problems."
+},
+{
+"id": "explicit_0045",
+"text": "Women always act like victims 😂",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly stereotypes women as falsely victimized."
+},
+{
+"id": "explicit_0046",
+"text": "Women cannot handle criticism without making it personal.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It generalizes women as unable to handle criticism."
+},
+{
+"id": "explicit_0047",
+"text": "Women always destroy group dynamics.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It makes a broad hostile claim about women in groups."
+},
+{
+"id": "explicit_0048",
+"text": "Every female-led project becomes chaos 🤦",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It generalizes women leaders as causing chaos."
+},
+{
+"id": "explicit_0049",
+"text": "Women always expect special treatment.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It makes a hostile generalization about women's expectations."
+},
+{
+"id": "explicit_0050",
+"text": "Women turn every disagreement into a personal attack.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It stereotypes women as irrational in disagreements."
+},
+{
+"id": "explicit_0051",
+"text": "Women always make things about feelings 😒",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It generalizes women as overly emotional."
+},
+{
+"id": "explicit_0052",
+"text": "Female coworkers always create unnecessary problems.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly generalizes women coworkers as problematic."
+},
+{
+"id": "explicit_0053",
+"text": "Women never admit when they are wrong.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It makes a hostile blanket claim about women."
+},
+{
+"id": "explicit_0054",
+"text": "Women always overreact to normal comments 🙃",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It explicitly stereotypes women as overreacting."
+},
+{
+"id": "explicit_0055",
+"text": "Women are always looking for reasons to complain.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It hostilely generalizes women as complainants."
+},
+{
+"id": "explicit_0056",
+"text": "Female students always want exceptions.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It stereotypes female students as seeking special treatment."
+},
+{
+"id": "explicit_0057",
+"text": "Women make every debate exhausting 😑",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It generalizes women as burdensome in debates."
+},
+{
+"id": "explicit_0058",
+"text": "Women always bring unnecessary emotions into business.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It makes a broad hostile claim about women in business."
+},
+{
+"id": "explicit_0059",
+"text": "Female leaders always turn confident teams into drama.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly generalizes women leaders as disruptive."
+},
+{
+"id": "explicit_0060",
+"text": "Women always make simple work political 🙄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "hostile_generalization",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It attacks women as a group for supposedly politicizing work."
+},
+{
+"id": "explicit_0061",
+"text": "Women should focus on family instead of chasing leadership.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly confines women to traditional family roles."
+},
+{
+"id": "explicit_0062",
+"text": "She should stop acting ambitious and learn her place 🙄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It attacks a woman for ambition and demands submission."
+},
+{
+"id": "explicit_0063",
+"text": "Women are better suited for support roles, not leadership.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly assigns women to lower-status roles."
+},
+{
+"id": "explicit_0064",
+"text": "A woman should not be trying to dominate the room.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It attacks a woman for assertive participation."
+},
+{
+"id": "explicit_0065",
+"text": "Female confidence is just arrogance with makeup 💄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It demeans women's confidence using a gendered framing."
+},
+{
+"id": "explicit_0066",
+"text": "Women should leave the hard decisions to men.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly assigns decision-making authority to men over women."
+},
+{
+"id": "explicit_0067",
+"text": "She talks too much for someone who should be listening.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It attacks a woman for speaking rather than adopting a passive role."
+},
+{
+"id": "explicit_0068",
+"text": "Women belong in caring roles, not executive seats 😌",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly restricts women to caregiving roles."
+},
+{
+"id": "explicit_0069",
+"text": "A woman arguing with men just looks ridiculous.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It demeans women for debating men."
+},
+{
+"id": "explicit_0070",
+"text": "Women should be pleasant, not opinionated.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It imposes a restrictive gender role on women."
+},
+{
+"id": "explicit_0071",
+"text": "She should smile more and stop pretending to be the boss 🙂",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It attacks a woman for authority while demanding feminine pleasantness."
+},
+{
+"id": "explicit_0072",
+"text": "Women are meant to assist, not run things.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly limits women to assistant roles."
+},
+{
+"id": "explicit_0073",
+"text": "A female boss is always trying too hard.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It attacks women bosses for occupying authority."
+},
+{
+"id": "explicit_0074",
+"text": "Women should stop competing with men and stay realistic 😂",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It explicitly discourages women from competing with men."
+},
+{
+"id": "explicit_0075",
+"text": "She is too loud for a woman.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It imposes a gendered expectation that women should be quiet."
+},
+{
+"id": "explicit_0076",
+"text": "Women should not act like they are in charge.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly rejects women exercising authority."
+},
+{
+"id": "explicit_0077",
+"text": "Her job should be keeping the team comfortable, not making calls 🤷",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It confines a woman to emotional support rather than decision-making."
+},
+{
+"id": "explicit_0078",
+"text": "A woman with too much authority is always a problem.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It explicitly portrays women's authority as problematic."
+},
+{
+"id": "explicit_0079",
+"text": "Female independence is mostly just attitude.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It demeans women's independence as bad behavior."
+},
+{
+"id": "explicit_0080",
+"text": "She should stop acting like one of the guys 😏",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "gender_role_attack",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It attacks a woman for not conforming to expected femininity."
+},
+{
+"id": "explicit_0081",
+"text": "Her looks are the only reason anyone listens.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It reduces a woman's influence to appearance."
+},
+{
+"id": "explicit_0082",
+"text": "She should worry less about opinions and more about looking decent 💄",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It dismisses a woman's opinions and redirects attention to her appearance."
+},
+{
+"id": "explicit_0083",
+"text": "Nobody asked for her analysis, just the photo.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It reduces a woman to her appearance rather than her expertise."
+},
+{
+"id": "explicit_0084",
+"text": "She is not attractive enough to be this confident.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It attacks a woman's confidence through appearance-based judgment."
+},
+{
+"id": "explicit_0085",
+"text": "Female influencers age badly and still expect attention 😂",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It demeans women through appearance and age-based contempt."
+},
+{
+"id": "explicit_0086",
+"text": "Her face is doing more work than her brain.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It reduces a woman to appearance while insulting intelligence."
+},
+{
+"id": "explicit_0087",
+"text": "She only got followers because of how she looks.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It attributes a woman's success solely to appearance."
+},
+{
+"id": "explicit_0088",
+"text": "A woman that plain should not act superior 😒",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It attacks a woman with appearance-based contempt."
+},
+{
+"id": "explicit_0089",
+"text": "Her presentation would be ignored if she looked ordinary.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It dismisses her work by claiming attention comes from appearance."
+},
+{
+"id": "explicit_0090",
+"text": "She should post selfies, not opinions.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It reduces a woman to visual appeal and rejects her voice."
+},
+{
+"id": "explicit_0091",
+"text": "Her makeup is more convincing than her argument 🙃",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It attacks her argument through a gendered appearance reference."
+},
+{
+"id": "explicit_0092",
+"text": "Women online act like looking good counts as talent.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It generalizes women as relying on appearance instead of ability."
+},
+{
+"id": "explicit_0093",
+"text": "She is too average-looking to be that demanding.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It attacks a woman's standards through appearance."
+},
+{
+"id": "explicit_0094",
+"text": "Her outfit is the only interesting thing she contributed 👗",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It reduces a woman's contribution to clothing."
+},
+{
+"id": "explicit_0095",
+"text": "A woman should look polished before acting important.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It conditions a woman's perceived importance on appearance."
+},
+{
+"id": "explicit_0096",
+"text": "She is only confident because people compliment her looks.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It dismisses a woman's confidence as appearance-based."
+},
+{
+"id": "explicit_0097",
+"text": "Her profile picture is doing all the heavy lifting 😏",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "sarcasm",
+"rationale": "It implies her value or success comes only from appearance."
+},
+{
+"id": "explicit_0098",
+"text": "Women like her get attention first and respect never.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It demeans women by tying attention and respect to appearance."
+},
+{
+"id": "explicit_0099",
+"text": "She should fix her look before giving advice.",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": false,
+"emoji_role": "none",
+"rationale": "It rejects a woman's advice by attacking her appearance."
+},
+{
+"id": "explicit_0100",
+"text": "Her appearance is the whole brand, nothing else 📸",
+"label": "misogynistic",
+"sexism_type": "explicit",
+"category": "appearance_based_attack",
+"contains_emoji": true,
+"emoji_role": "reinforcing",
+"rationale": "It reduces a woman entirely to appearance."
+}
+]
