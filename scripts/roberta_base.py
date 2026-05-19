@@ -1,4 +1,4 @@
-"""Train RoBERTa on Hatemoji + EDOS and test on the OCR post dataset."""
+"""Train RoBERTa on EDOS and test on Online Misogyny with the OCR post dataset."""
 
 from __future__ import annotations
 
@@ -8,7 +8,6 @@ import random
 import re
 from pathlib import Path
 
-import emoji
 import numpy as np
 import pandas as pd
 import torch
@@ -29,13 +28,7 @@ LABEL_NAMES = ["non-misogynistic", "misogynistic"]
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Train RoBERTa + emoji preprocessing and evaluate on post_ocr_dataset.csv."
-    )
-    parser.add_argument(
-        "--hatemoji_dir",
-        type=Path,
-        default=Path("datasets/Hatemoji/HatemojiBuild"),
-        help="Directory containing HatemojiBuild train/validation/test CSVs.",
+        description="Train RoBERTa on EDOS and evaluate on post_ocr_dataset.csv."
     )
     parser.add_argument(
         "--edos_path",
@@ -52,7 +45,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output_dir",
         type=Path,
-        default=Path("results/roberta_emoji"),
+        default=Path("results/roberta_base"),
         help="Directory for metrics, predictions, and the trained model.",
     )
     parser.add_argument("--model_name", type=str, default="roberta-base")
@@ -76,20 +69,9 @@ def set_seed(seed: int) -> None:
     torch.cuda.manual_seed_all(seed)
 
 
-def process_emojis(text: object, mode: str = "demojize") -> str:
+def clean_text(text: object) -> str:
     if not isinstance(text, str):
         return ""
-    if mode == "demojize":
-        return emoji.demojize(text, delimiters=(" :", ": "))
-    if mode == "remove":
-        return emoji.replace_emoji(text, replace="")
-    return text
-
-
-def clean_text(text: object, emoji_mode: str = "demojize") -> str:
-    if not isinstance(text, str):
-        return ""
-    text = process_emojis(text, mode=emoji_mode)
     text = re.sub(r"http\S+|www\S+", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
@@ -130,26 +112,10 @@ class MisogynyDataset(Dataset):
 
 
 def load_train_val_data(
-    hatemoji_dir: Path,
     edos_path: Path,
     seed: int,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Load Hatemoji + EDOS and create a stratified train/validation split."""
-    hatemoji_frames = [
-        pd.read_csv(hatemoji_dir / "train.csv", keep_default_na=False),
-        pd.read_csv(hatemoji_dir / "validation.csv", keep_default_na=False),
-    ]
-    hatemoji = pd.concat(hatemoji_frames, ignore_index=True)
-    hatemoji = hatemoji.rename(columns={"label_gold": "binary_label"})
-    hatemoji["binary_label"] = hatemoji["binary_label"].astype(int)
-    hatemoji["text"] = hatemoji["text"].map(clean_text)
-    hatemoji["source"] = "hatemoji"
-    hatemoji = hatemoji[["text", "binary_label", "source"]]
-    print(
-        f"Hatemoji train+val: {len(hatemoji):,} samples "
-        f"({int(hatemoji['binary_label'].sum()):,} hateful)"
-    )
-
+    """Load EDOS and create a stratified train/validation split."""
     edos = pd.read_csv(edos_path, keep_default_na=False)
     edos = edos[edos["split"].isin(["train", "dev"])].copy()
     edos["binary_label"] = edos["label_sexist"].eq("sexist").astype(int)
@@ -161,8 +127,7 @@ def load_train_val_data(
         f"({int(edos['binary_label'].sum()):,} sexist)"
     )
 
-    data = pd.concat([hatemoji, edos], ignore_index=True)
-    data = data[data["text"].str.strip().ne("")].copy()
+    data = edos[edos["text"].str.strip().ne("")].copy()
     train_df, val_df = train_test_split(
         data,
         test_size=0.15,
@@ -268,7 +233,7 @@ def main() -> None:
     print(f"Using device: {device}")
     print(f"Loading model: {args.model_name}")
 
-    train_df, val_df = load_train_val_data(args.hatemoji_dir, args.edos_path, args.seed)
+    train_df, val_df = load_train_val_data(args.edos_path, args.seed)
     test_df = load_test_data(args.test_path, include_ocr_text=not args.no_ocr_text)
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
@@ -357,7 +322,7 @@ def main() -> None:
     (args.output_dir / "metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
     (args.output_dir / "classification_report.txt").write_text(test_report, encoding="utf-8")
 
-    model_dir = args.output_dir / "model"
+    model_dir = args.output_dir / "best_model"
     model.save_pretrained(model_dir)
     tokenizer.save_pretrained(model_dir)
     print(f"Saved predictions, metrics, and model to {args.output_dir}")
