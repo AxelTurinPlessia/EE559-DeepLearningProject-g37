@@ -66,7 +66,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--base_model_path",
         type=Path,
-        default=Path("results/roberta_mixed_post_ocr/lr2e-5_seed42/best_model"),
+        default=Path("results/roberta_mixed_post_ocr/best_model"),
     )
     parser.add_argument("--real_train_path", type=Path, default=Path("datasets/roberta_mixed_post_ocr/train.csv"))
     parser.add_argument("--real_val_path", type=Path, default=Path("datasets/roberta_mixed_post_ocr/val.csv"))
@@ -84,7 +84,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output_dir",
         type=Path,
-        default=Path("results/roberta_mixed_real80_synthetic20_lr5e-6_seed42"),
+        default=Path("results/roberta_mixed_synthetic"),
     )
     parser.add_argument("--edos_path", type=Path, default=Path("datasets/edos/data/edos_labelled_aggregated.csv"))
     parser.add_argument("--hatemoji_test_path", type=Path, default=Path("datasets/Hatemoji/HatemojiBuild/test.csv"))
