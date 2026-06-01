@@ -37,6 +37,14 @@ metrics used in the report, shows the analysis tables used in the report, and
 prints cached MAMI CLIP/RoBERTa+CLIP metrics. It never trains or fine-tunes a
 model. By default it reads saved result files from `results/`.
 
+The repository uses Git LFS for the large model checkpoints and MAMI image
+files. After cloning, run:
+
+```bash
+git lfs install
+git lfs pull
+```
+
 Useful options:
 
 ```bash
@@ -123,9 +131,12 @@ then retrain the corresponding `roberta_synthetic + CLIP` model.
 
 ## Datasets
 
-The synthetic diagnostic datasets are already tracked under:
+The final generated text datasets and synthetic diagnostic datasets are tracked
+in this repository:
 
 ```text
+datasets/combined_external_datasets.csv
+datasets/post_ocr_dataset.csv
 datasets/synthetic/
 ```
 
@@ -149,8 +160,9 @@ What these commands do:
 - `create_mixed_roberta_dataset.py` creates the mixed RoBERTa train/validation
   and held-out post/OCR test splits under `datasets/roberta_mixed_post_ocr/`.
 
-The MAMI image dataset is not loaded by a script in this repository. It must be
-placed manually at:
+The MAMI image dataset is also tracked through Git LFS in this repository. If
+LFS files were not pulled, or if you are reconstructing the project manually, it
+must be placed at:
 
 ```text
 datasets/MAMI/
@@ -165,6 +177,7 @@ Current local dataset sizes:
 ```text
 datasets/Hatemoji/                         ~842 KB
 datasets/edos/                             ~3.7 MB
+datasets/combined_external_datasets.csv    ~13 MB
 datasets/online-misogyny-eacl2021-main/    ~3.3 MB
 datasets/post_ocr_dataset.csv              ~2.1 MB
 datasets/roberta_mixed_post_ocr/           ~16 MB
@@ -172,10 +185,9 @@ datasets/synthetic/                        ~746 KB
 datasets/MAMI/                             ~1.8 GB
 ```
 
-The small text/tabular datasets are technically small enough to commit, but
-their licenses/source terms should be checked first. The MAMI folder should not
-be pushed directly to normal Git because it is about 1.8 GB and contains many
-image files. If it must be versioned, use Git LFS or provide it separately.
+The raw external dataset folders can be regenerated with the scripts above. The
+MAMI folder should not be pushed directly to normal Git because it is about
+1.8 GB and contains many image files; it is tracked here with Git LFS.
 
 ## Results and model artifacts
 
@@ -197,8 +209,8 @@ results/synthetic_diagnostics/
 
 Do not remove `results/` from `.gitignore` and push everything blindly. Some
 checkpoint files are hundreds of MB or more than 1 GB, so GitHub requires Git
-LFS for them. The recommended approach is to track only the final selected
-result folders and use Git LFS for:
+LFS for them. This repository tracks only the final selected result folders and
+uses Git LFS for:
 
 ```bash
 git lfs install

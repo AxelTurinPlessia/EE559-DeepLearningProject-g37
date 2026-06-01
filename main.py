@@ -110,6 +110,8 @@ REQUIRED_RESULT_PATHS = [
 ]
 
 DATASET_PATHS = [
+    Path("datasets/combined_external_datasets.csv"),
+    Path("datasets/post_ocr_dataset.csv"),
     Path("datasets/synthetic/synthetic_train_set.jsonl"),
     Path("datasets/synthetic/implicit.jsonl"),
     Path("datasets/synthetic/explicit.json"),
@@ -120,12 +122,12 @@ DATASET_PATHS = [
     Path("datasets/Hatemoji/HatemojiBuild/validation.csv"),
     Path("datasets/Hatemoji/HatemojiBuild/test.csv"),
     Path("datasets/online-misogyny-eacl2021-main/data/final_labels.csv"),
-    Path("datasets/post_ocr_dataset.csv"),
     Path("datasets/roberta_mixed_post_ocr/train.csv"),
     Path("datasets/roberta_mixed_post_ocr/val.csv"),
     Path("datasets/roberta_mixed_post_ocr/test.csv"),
     Path("datasets/MAMI/train.tsv"),
     Path("datasets/MAMI/validation.tsv"),
+    Path("datasets/MAMI/test.tsv"),
     Path("datasets/MAMI/MAMI_2022_images/training_images"),
 ]
 
