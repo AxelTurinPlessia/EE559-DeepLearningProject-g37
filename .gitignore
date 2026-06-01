@@ -12,6 +12,8 @@ logs/
 
 data/
 datasets/*
+!datasets/combined_external_datasets.csv
+!datasets/post_ocr_dataset.csv
 !datasets/synthetic/
 !datasets/synthetic/**
 !datasets/MAMI/
