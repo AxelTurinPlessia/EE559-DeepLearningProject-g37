@@ -28,45 +28,44 @@ EE559-DeepLearningProject-g37/
 └── checkpoints/         # trained model weights (ignored by git if large)
 ```
 
-## Synthetic RoBERTa Fine-Tuning
+## Final results demo
 
-To fine-tune the current best RoBERTa checkpoint with synthetic training-only
-augmentation, run:
+Run the single entrypoint used for the screencast:
 
 ```bash
-python scripts/09_finetune_roberta_on_synthetic.py \
-  --synthetic_train_path datasets/synthetic/synthetic_train_set.jsonl \
-  --base_model_path results/roberta_mixed_post_ocr/lr2e-5_seed42/best_model \
-  --output_dir results/roberta_synthetic_finetune \
-  --epochs 4 \
-  --batch_size 16 \
-  --learning_rate 2e-5 \
-  --seed 42
+python main.py
 ```
 
-The script trains only on `datasets/synthetic/synthetic_train_set.jsonl`. It
-uses the real validation split in `datasets/roberta_mixed_post_ocr/val.csv` for
-checkpoint selection, then evaluates the selected checkpoint on EDOS test,
-HatemojiBuild test, and the held-out Online Misogyny post/OCR test split. It
-also evaluates the synthetic diagnostic benchmark files in `datasets/synthetic/`.
+The script prints the checkpoint inventory, summarizes the stored RoBERTa
+metrics used in the report, and evaluates the saved MAMI CLIP/RoBERTa+CLIP
+checkpoints when cached MAMI metrics are missing. It never trains or
+fine-tunes a model. After the first MAMI evaluation, metrics are cached under
+the corresponding `results/*/metrics_validation.json` files so later runs are
+fast.
 
-Results are saved under `results/roberta_synthetic_finetune/`, including
-separate real-world and synthetic benchmark metrics, classification reports,
-confusion matrices, predictions, and the new checkpoint. Synthetic data is an
-augmentation source only; it is not a substitute for real-world held-out
-evaluation.
+Useful options:
+
+```bash
+# Only show stored metrics and skip loading MAMI .pt checkpoints.
+python main.py --skip-mami-eval
+
+# Recompute MAMI validation metrics from saved checkpoints.
+python main.py --refresh-mami-metrics
+```
+
+Training and fine-tuning scripts are in `scripts/training/`. Data preparation
+and analysis scripts remain in `scripts/`.
 
 ## Mixed Real/Synthetic RoBERTa Fine-Tuning
 
-The synthetic-only continued fine-tune improves synthetic diagnostics but
-over-predicts misogyny on real-world data. The mixed real/synthetic experiment
-keeps the model grounded in the original mixed real training split while adding
-synthetic examples as a smaller augmentation source.
+The mixed real/synthetic experiment keeps the model grounded in the original
+mixed real training split while adding synthetic examples as a smaller
+augmentation source.
 
 Run the 80/20 real/synthetic experiment with:
 
 ```bash
-python scripts/10_finetune_roberta_mixed_real_synthetic.py \
+python scripts/training/roberta_synthetic.py \
   --base_model_path results/roberta_mixed_post_ocr/lr2e-5_seed42/best_model \
   --real_train_path datasets/roberta_mixed_post_ocr/train.csv \
   --real_val_path datasets/roberta_mixed_post_ocr/val.csv \

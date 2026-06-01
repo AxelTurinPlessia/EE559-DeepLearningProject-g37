@@ -4,7 +4,7 @@ The synthetic data is used only as training augmentation. Checkpoint selection
 and optional threshold tuning use the real validation split only.
 
 Example:
-    python scripts/10_finetune_roberta_mixed_real_synthetic.py \
+    python scripts/training/roberta_synthetic.py \
       --base_model_path results/roberta_mixed_post_ocr/lr2e-5_seed42/best_model \
       --synthetic_train_path datasets/synthetic/synthetic_train_set.jsonl \
       --synthetic_ratio 0.20 \
