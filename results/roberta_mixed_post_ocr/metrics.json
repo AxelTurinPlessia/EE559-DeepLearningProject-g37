@@ -1,0 +1,68 @@
+{
+  "model_name": "results/roberta_emoji/model",
+  "split_dir": "datasets/roberta_mixed_post_ocr",
+  "epochs_requested": 4,
+  "epochs_completed": 4,
+  "best_epoch": 3,
+  "best_val_macro_f1_during_training": 0.8352540297466403,
+  "batch_size": 16,
+  "eval_batch_size": 32,
+  "max_len": 128,
+  "lr": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "seed": 42,
+  "fp16": false,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4066082417600591,
+      "train_macro_f1": 0.7994520948688663,
+      "train_accuracy": 0.8300323452523373,
+      "val_loss": 0.3528946683383905,
+      "val_macro_f1": 0.7998398366727215,
+      "val_accuracy": 0.8263487475915221,
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.33089310025055724,
+      "train_macro_f1": 0.8364284039903864,
+      "train_accuracy": 0.8633966945810625,
+      "val_loss": 0.37046470212248656,
+      "val_macro_f1": 0.8245233947710675,
+      "val_accuracy": 0.8557321772639692,
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2616688557702475,
+      "train_macro_f1": 0.8750955989303989,
+      "train_accuracy": 0.8975585980770083,
+      "val_loss": 0.440778299048543,
+      "val_macro_f1": 0.8352540297466403,
+      "val_accuracy": 0.8672928709055877,
+      "is_best": true
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.19922764085891276,
+      "train_macro_f1": 0.9080618289680531,
+      "train_accuracy": 0.9255173024945722,
+      "val_loss": 0.5399661346195409,
+      "val_macro_f1": 0.8331251841644582,
+      "val_accuracy": 0.8692196531791907,
+      "is_best": false
+    }
+  ],
+  "best_checkpoint_validation": {
+    "loss": 0.440778299048543,
+    "macro_f1": 0.8352540297466403,
+    "accuracy": 0.8672928709055877
+  },
+  "test": {
+    "loss": 0.5350170769263058,
+    "macro_f1": 0.7315819869981786,
+    "accuracy": 0.9203354297693921
+  }
+}

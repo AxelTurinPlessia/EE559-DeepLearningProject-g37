@@ -1,0 +1,27 @@
+{
+  "n_examples": 1000,
+  "accuracy": 0.787,
+  "macro_f1": 0.7865677997945841,
+  "weighted_f1": 0.786567799794584,
+  "per_class": {
+    "non-misogynistic": {
+      "precision": 0.763302752293578,
+      "recall": 0.832,
+      "f1": 0.7961722488038279,
+      "support": 500
+    },
+    "misogynistic": {
+      "precision": 0.8153846153846154,
+      "recall": 0.742,
+      "f1": 0.7769633507853403,
+      "support": 500
+    }
+  },
+  "model": "CLIP only",
+  "split": "validation",
+  "checkpoint": "results/results_clip_mami/model.pt",
+  "text_checkpoint": null,
+  "limit": null,
+  "state_dict_missing_keys": 0,
+  "state_dict_unexpected_keys": 0
+}

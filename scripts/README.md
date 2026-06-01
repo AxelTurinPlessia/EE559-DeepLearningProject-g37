@@ -136,7 +136,7 @@ test set kept post/OCR-only.
 Train, validate, and test RoBERTa on these mixed splits:
 
 ```bash
-python scripts/train_roberta_mixed.py \
+python scripts/training/roberta_mixed.py \
   --split_dir datasets/roberta_mixed_post_ocr \
   --model_name results/roberta_emoji/model \
   --output_dir results/roberta_mixed_post_ocr

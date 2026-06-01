@@ -11,3 +11,4 @@ easyocr
 transformers
 emoji
 accelerate
+open_clip_torch

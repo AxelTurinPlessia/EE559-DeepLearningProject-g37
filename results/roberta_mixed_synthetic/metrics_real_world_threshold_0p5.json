@@ -1,0 +1,78 @@
+{
+  "threshold": 0.5,
+  "n_examples": 5547,
+  "label_mapping": {
+    "non_misogynistic": 0,
+    "misogynistic": 1
+  },
+  "class_distribution": {
+    "non-misogynistic": 4191,
+    "misogynistic": 1356
+  },
+  "positive_prediction_rate": 0.23273841716243016,
+  "accuracy": 0.8509104020191094,
+  "macro_f1": 0.7948331266996074,
+  "weighted_f1": 0.849653497572293,
+  "classification_report": {
+    "non-misogynistic": {
+      "precision": 0.8952067669172933,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9020954184917722,
+      "support": 4191.0
+    },
+    "misogynistic": {
+      "precision": 0.7048799380325329,
+      "recall": 0.6710914454277286,
+      "f1-score": 0.6875708349074424,
+      "support": 1356.0
+    },
+    "accuracy": 0.8509104020191094,
+    "macro avg": {
+      "precision": 0.8000433524749131,
+      "recall": 0.7900911772593189,
+      "f1-score": 0.7948331266996074,
+      "support": 5547.0
+    },
+    "weighted avg": {
+      "precision": 0.8486801435230739,
+      "recall": 0.8509104020191094,
+      "f1-score": 0.849653497572293,
+      "support": 5547.0
+    }
+  },
+  "per_source": {
+    "edos_test": {
+      "n": 4000,
+      "class_distribution": {
+        "non-misogynistic": 3030,
+        "misogynistic": 970
+      },
+      "positive_prediction_rate": 0.231,
+      "accuracy": 0.8685,
+      "macro_f1": 0.8180680556905442,
+      "weighted_f1": 0.8673984475601922
+    },
+    "hatemoji_test": {
+      "n": 593,
+      "class_distribution": {
+        "non-misogynistic": 285,
+        "misogynistic": 308
+      },
+      "positive_prediction_rate": 0.49072512647554806,
+      "accuracy": 0.6239460370994941,
+      "macro_f1": 0.6239075347043483,
+      "weighted_f1": 0.6240551272190741
+    },
+    "post_ocr_test": {
+      "n": 954,
+      "class_distribution": {
+        "non-misogynistic": 876,
+        "misogynistic": 78
+      },
+      "positive_prediction_rate": 0.07966457023060797,
+      "accuracy": 0.9182389937106918,
+      "macro_f1": 0.724518355077078,
+      "weighted_f1": 0.9177546921141078
+    }
+  }
+}

@@ -1,0 +1,4 @@
+source_dataset,n,recall,avg_p_misogynistic
+explicit,100,0.67,0.6561822117079282
+implicit,100,0.06,0.07968499514332507
+explicit_minus_implicit,,0.6100000000000001,0.5764972165646032

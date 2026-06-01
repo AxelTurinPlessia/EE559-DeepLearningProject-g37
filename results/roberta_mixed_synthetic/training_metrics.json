@@ -1,0 +1,16 @@
+{
+  "best_epoch": 1,
+  "best_val_macro_f1": 0.824149630951875,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2855280233529141,
+      "train_macro_f1": 0.8775963378487691,
+      "train_accuracy": 0.892382404026798,
+      "val_loss": 0.41664518828575425,
+      "val_macro_f1": 0.824149630951875,
+      "val_accuracy": 0.8617533718689788,
+      "is_best": true
+    }
+  ]
+}

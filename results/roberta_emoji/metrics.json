@@ -1,0 +1,35 @@
+{
+  "model_name": "roberta-base",
+  "test_path": "datasets/post_ocr_dataset.csv",
+  "include_ocr_text": true,
+  "epochs": 3,
+  "batch_size": 16,
+  "max_len": 128,
+  "lr": 2e-05,
+  "seed": 42,
+  "test_loss": 0.4005048375304124,
+  "test_macro_f1": 0.7225506622691759,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5454327729773122,
+      "train_macro_f1": 0.6913257055422364,
+      "val_loss": 0.4813755815476179,
+      "val_macro_f1": 0.724552626680835
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.40856285785823826,
+      "train_macro_f1": 0.7823541103872027,
+      "val_loss": 0.44780831728130577,
+      "val_macro_f1": 0.7604096606898698
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.31042677484985376,
+      "train_macro_f1": 0.8434604710747183,
+      "val_loss": 0.5187143129110336,
+      "val_macro_f1": 0.7711531435316601
+    }
+  ]
+}

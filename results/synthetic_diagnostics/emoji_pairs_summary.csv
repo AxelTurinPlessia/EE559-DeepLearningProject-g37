@@ -1,0 +1,2 @@
+n_pairs,flip_rate,mean_delta_p,median_delta_p,mean_abs_delta_p,plain_accuracy,emoji_accuracy,plain_recall_misogynistic,emoji_recall_misogynistic,plain_fpr_non_misogynistic,emoji_fpr_non_misogynistic,no_flip_count,no_flip_proportion,helpful_flip_count,helpful_flip_proportion,harmful_flip_count,harmful_flip_proportion,wrong_to_wrong_flip_count,wrong_to_wrong_flip_proportion,correct_to_correct_flip_count,correct_to_correct_flip_proportion
+50,0.08,0.10462172170751728,0.00820222171023488,0.13007807728718035,0.7,0.7,0.48,0.56,0.08,0.16,46,0.92,2,0.04,2,0.04,0,0.0,0,0.0
