@@ -77,6 +77,11 @@ MAMI_MODELS = [
     ),
 ]
 
+MAMI_SPLIT_LABELS = {
+    "validation": "held-out eval",
+    "test": "test",
+}
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -623,7 +628,7 @@ def summarize_mami(args: argparse.Namespace) -> None:
             rows.append(
                 [
                     spec.name,
-                    cached.get("split", "validation"),
+                    MAMI_SPLIT_LABELS.get(cached.get("split", "validation"), cached.get("split", "validation")),
                     cached.get("n_examples", "n/a"),
                     format_float(cached.get("macro_f1")),
                     format_float(cached.get("accuracy")),
@@ -654,12 +659,12 @@ def summarize_mami(args: argparse.Namespace) -> None:
             cache_path.parent.mkdir(parents=True, exist_ok=True)
             cache_path.write_text(json.dumps(metrics, indent=2), encoding="utf-8")
             rows.append(
-                [
-                    spec.name,
-                    metrics.get("split", args.mami_split),
-                    metrics.get("n_examples", "n/a"),
-                    format_float(metrics.get("macro_f1")),
-                    format_float(metrics.get("accuracy")),
+                    [
+                        spec.name,
+                        MAMI_SPLIT_LABELS.get(metrics.get("split", args.mami_split), metrics.get("split", args.mami_split)),
+                        metrics.get("n_examples", "n/a"),
+                        format_float(metrics.get("macro_f1")),
+                        format_float(metrics.get("accuracy")),
                     "computed",
                 ]
             )
@@ -667,9 +672,18 @@ def summarize_mami(args: argparse.Namespace) -> None:
     for spec in missing_cache:
         if any(row[0] == spec.name for row in rows):
             continue
-        rows.append([spec.name, args.mami_split, "n/a", "n/a", "n/a", "not evaluated"])
+        rows.append(
+            [
+                spec.name,
+                MAMI_SPLIT_LABELS.get(args.mami_split, args.mami_split),
+                "n/a",
+                "n/a",
+                "n/a",
+                "not evaluated",
+            ]
+        )
 
-    print_table(["Model", "Split", "N", "Macro F1", "Accuracy", "Source"], rows)
+    print_table(["Model", "Evaluation Split", "N", "Macro F1", "Accuracy", "Source"], rows)
     print("\nUse --refresh-mami-metrics to recompute these from the saved .pt checkpoints.")
 
 
