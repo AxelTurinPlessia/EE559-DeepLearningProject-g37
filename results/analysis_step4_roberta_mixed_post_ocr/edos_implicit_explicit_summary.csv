@@ -1,0 +1,4 @@
+sexism_type,samples,recall,macro_f1_on_nonsexist_plus_type,evaluation_samples
+explicit,725,0.8096551724137931,0.8359874904972779,3755
+implicit,245,0.5551020408163265,0.6759649636264813,3275
+overall_edos_test,4000,,0.8249397597981242,4000

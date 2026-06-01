@@ -1,0 +1,24 @@
+{
+  "real_train_examples": 22569,
+  "synthetic_pool_examples": 2000,
+  "selected_synthetic_examples": 5642,
+  "mixed_train_examples": 28211,
+  "synthetic_share": 0.19999291056680019,
+  "real_validation_examples": 4152,
+  "real_train_class_counts": {
+    "non-misogynistic": 16649,
+    "misogynistic": 5920
+  },
+  "selected_synthetic_class_counts": {
+    "non-misogynistic": 2821,
+    "misogynistic": 2821
+  },
+  "mixed_train_class_counts": {
+    "non-misogynistic": 19470,
+    "misogynistic": 8741
+  },
+  "real_validation_class_counts": {
+    "non-misogynistic": 3094,
+    "misogynistic": 1058
+  }
+}

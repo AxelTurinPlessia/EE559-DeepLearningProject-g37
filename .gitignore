@@ -6,7 +6,6 @@ __pycache__/
 .easyocr/
 .DS_Store
 
-results/
 checkpoints/
 wandb/
 logs/
@@ -15,6 +14,9 @@ data/
 datasets/*
 !datasets/synthetic/
 !datasets/synthetic/**
+!datasets/MAMI/
+!datasets/MAMI/**
+datasets/MAMI/**/.DS_Store
 fruit_dataset/
 
 *.pt
@@ -22,5 +24,27 @@ fruit_dataset/
 *.ckpt
 
 .hf-cache/
-results/
 __pycache__/
+
+# Keep only the final result artifacts needed by main.py.
+results/*
+!results/roberta_base/
+!results/roberta_base/**
+!results/roberta_emoji/
+!results/roberta_emoji/**
+!results/roberta_mixed_post_ocr/
+!results/roberta_mixed_post_ocr/**
+!results/roberta_mixed_synthetic/
+!results/roberta_mixed_synthetic/**
+!results/results_clip_mami/
+!results/results_clip_mami/**
+!results/results_multimodal_roberta_base/
+!results/results_multimodal_roberta_base/**
+!results/results_multimodal_roberta_synthetic/
+!results/results_multimodal_roberta_synthetic/**
+!results/results_multimodal_weighted/
+!results/results_multimodal_weighted/**
+!results/analysis_step4_roberta_mixed_post_ocr/
+!results/analysis_step4_roberta_mixed_post_ocr/**
+!results/synthetic_diagnostics/
+!results/synthetic_diagnostics/**

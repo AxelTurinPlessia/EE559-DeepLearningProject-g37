@@ -1,0 +1,401 @@
+sample_id,source,text,binary_label,label_text,origin,true_label,p_misogynistic,predicted_label,predicted_label_text
+implicit_0001,synthetic_implicit,She is surprisingly calm for someone leading a technical debate 🙂,1,misogynistic,synthetic_benchmark,1,0.975315511226654,1,misogynistic
+implicit_0002,synthetic_implicit,A woman on the team will help with the communication side.,1,misogynistic,synthetic_benchmark,1,0.9935779571533203,1,misogynistic
+implicit_0003,synthetic_implicit,She is probably better at keeping everyone organized than solving the hard parts 📋,1,misogynistic,synthetic_benchmark,1,0.9940819144248962,1,misogynistic
+implicit_0004,synthetic_implicit,Women usually bring a softer touch to tough projects.,1,misogynistic,synthetic_benchmark,1,0.9969256520271301,1,misogynistic
+implicit_0005,synthetic_implicit,Maybe she can handle the design slides while the others do the model 💅,1,misogynistic,synthetic_benchmark,1,0.9940528273582458,1,misogynistic
+implicit_0006,synthetic_implicit,Female managers are usually better at feelings than strategy.,1,misogynistic,synthetic_benchmark,1,0.9976571798324585,1,misogynistic
+implicit_0007,synthetic_implicit,She would be perfect for HR; she has that nurturing energy 🌸,1,misogynistic,synthetic_benchmark,1,0.9859083294868469,1,misogynistic
+implicit_0008,synthetic_implicit,I expected her to be better with people than with numbers.,1,misogynistic,synthetic_benchmark,1,0.989865243434906,1,misogynistic
+implicit_0009,synthetic_implicit,At least the team has a woman's perspective for the user-friendly parts ✨,1,misogynistic,synthetic_benchmark,1,0.9903629422187805,1,misogynistic
+implicit_0010,synthetic_implicit,She seems more suited to mentoring than taking the risky decision.,1,misogynistic,synthetic_benchmark,1,0.9973964691162109,1,misogynistic
+implicit_0011,synthetic_implicit,"Women tend to notice the small details, so give her the notes 📝",1,misogynistic,synthetic_benchmark,1,0.9891518354415894,1,misogynistic
+implicit_0012,synthetic_implicit,She probably cares more about the team atmosphere than the result.,1,misogynistic,synthetic_benchmark,1,0.9964410662651062,1,misogynistic
+implicit_0013,synthetic_implicit,"She has the patience for customer questions, unlike the technical guys 😌",1,misogynistic,synthetic_benchmark,1,0.9969921112060547,1,misogynistic
+implicit_0014,synthetic_implicit,A female voice would make the presentation feel warmer.,1,misogynistic,synthetic_benchmark,1,0.9970512390136719,1,misogynistic
+implicit_0015,synthetic_implicit,She should handle the social media part; it fits her vibe 📱,1,misogynistic,synthetic_benchmark,1,0.8893964886665344,1,misogynistic
+implicit_0016,synthetic_implicit,She is actually sharp for someone from an all-girls school.,1,misogynistic,synthetic_benchmark,1,0.35726261138916016,0,non-misogynistic
+implicit_0017,synthetic_implicit,Not bad for a girl explaining machine learning 😅,1,misogynistic,synthetic_benchmark,1,0.5583314895629883,1,misogynistic
+implicit_0018,synthetic_implicit,She is more logical than I thought she would be.,1,misogynistic,synthetic_benchmark,1,0.0930137038230896,0,non-misogynistic
+implicit_0019,synthetic_implicit,"For a female founder, she sounds pretty grounded 🙂",1,misogynistic,synthetic_benchmark,1,0.9931074976921082,1,misogynistic
+implicit_0020,synthetic_implicit,She is one of the rare women who can talk finance clearly.,1,misogynistic,synthetic_benchmark,1,0.9970506429672241,1,misogynistic
+implicit_0021,synthetic_implicit,"She did well, especially considering how intense the topic was for her 😬",1,misogynistic,synthetic_benchmark,1,0.3433045744895935,0,non-misogynistic
+implicit_0022,synthetic_implicit,I did not expect her code review to be that useful.,1,misogynistic,synthetic_benchmark,1,0.8948229551315308,1,misogynistic
+implicit_0023,synthetic_implicit,She is pretty rational when she wants to be 👍,1,misogynistic,synthetic_benchmark,1,0.4600642919540405,0,non-misogynistic
+implicit_0024,synthetic_implicit,"Honestly, she sounds almost like one of the guys in that meeting.",1,misogynistic,synthetic_benchmark,1,0.02829819731414318,0,non-misogynistic
+implicit_0025,synthetic_implicit,She is surprisingly decisive for someone so nice 😊,1,misogynistic,synthetic_benchmark,1,0.9817636609077454,1,misogynistic
+implicit_0026,synthetic_implicit,She was better at the technical pitch than her profile suggested.,1,misogynistic,synthetic_benchmark,1,0.9975730776786804,1,misogynistic
+implicit_0027,synthetic_implicit,She is not like other girls in the lab 🧪,1,misogynistic,synthetic_benchmark,1,0.3807065784931183,0,non-misogynistic
+implicit_0028,synthetic_implicit,"For a young woman, she handled the pressure well.",1,misogynistic,synthetic_benchmark,1,0.08931507170200348,0,non-misogynistic
+implicit_0029,synthetic_implicit,She actually made a strong point before getting emotional 🙂,1,misogynistic,synthetic_benchmark,1,0.027027225121855736,0,non-misogynistic
+implicit_0030,synthetic_implicit,"She is talented, but mostly because she knows how to charm the room.",1,misogynistic,synthetic_benchmark,1,0.997175931930542,1,misogynistic
+implicit_0031,synthetic_implicit,Let her try the difficult part first so she feels included 🙂,1,misogynistic,synthetic_benchmark,1,0.20788021385669708,0,non-misogynistic
+implicit_0032,synthetic_implicit,Maybe explain the algorithm slowly before asking her to comment.,1,misogynistic,synthetic_benchmark,1,0.11936482042074203,0,non-misogynistic
+implicit_0033,synthetic_implicit,Cute that she wants to lead the strategy discussion 😊,1,misogynistic,synthetic_benchmark,1,0.334220826625824,0,non-misogynistic
+implicit_0034,synthetic_implicit,She can sit in on the meeting and learn how the real decisions are made.,1,misogynistic,synthetic_benchmark,1,0.9501168131828308,1,misogynistic
+implicit_0035,synthetic_implicit,Do not overwhelm her with all the equations at once 😅,1,misogynistic,synthetic_benchmark,1,0.4869724214076996,0,non-misogynistic
+implicit_0036,synthetic_implicit,She can take notes while the senior guys negotiate.,1,misogynistic,synthetic_benchmark,1,0.9953038692474365,1,misogynistic
+implicit_0037,synthetic_implicit,It is nice she has opinions on the architecture too 🏗️,1,misogynistic,synthetic_benchmark,1,0.030892333015799522,0,non-misogynistic
+implicit_0038,synthetic_implicit,Someone should double-check before she sends the analysis.,1,misogynistic,synthetic_benchmark,1,0.9785985946655273,1,misogynistic
+implicit_0039,synthetic_implicit,She is very brave for joining that advanced seminar 📚,1,misogynistic,synthetic_benchmark,1,0.009463852271437645,0,non-misogynistic
+implicit_0040,synthetic_implicit,Let her present the intro so she does not have to handle the technical questions.,1,misogynistic,synthetic_benchmark,1,0.9885419607162476,1,misogynistic
+implicit_0041,synthetic_implicit,"She is still learning how competitive environments work, be patient 😌",1,misogynistic,synthetic_benchmark,1,0.02001628652215004,0,non-misogynistic
+implicit_0042,synthetic_implicit,Maybe keep the difficult client for someone less sensitive.,1,misogynistic,synthetic_benchmark,1,0.5567834973335266,1,misogynistic
+implicit_0043,synthetic_implicit,"Good effort, even if the technical details were probably a lot for her 🙂",1,misogynistic,synthetic_benchmark,1,0.25380802154541016,0,non-misogynistic
+implicit_0044,synthetic_implicit,She should observe the first few negotiations before speaking up.,1,misogynistic,synthetic_benchmark,1,0.9968728423118591,1,misogynistic
+implicit_0045,synthetic_implicit,"Hiring her would help the diversity numbers, at least 📊",1,misogynistic,synthetic_benchmark,1,0.5577678084373474,1,misogynistic
+implicit_0046,synthetic_implicit,I would rather pick someone who will not disappear for family reasons.,1,misogynistic,synthetic_benchmark,1,0.03794450685381889,0,non-misogynistic
+implicit_0047,synthetic_implicit,Promoting her now will look good in the annual report 😏,1,misogynistic,synthetic_benchmark,1,0.08692003041505814,0,non-misogynistic
+implicit_0048,synthetic_implicit,"We need stability in this role, so maybe avoid candidates planning a family.",1,misogynistic,synthetic_benchmark,1,0.9893844723701477,1,misogynistic
+implicit_0049,synthetic_implicit,"She checks the gender balance box, which is useful ✅",1,misogynistic,synthetic_benchmark,1,0.6801838874816895,1,misogynistic
+implicit_0050,synthetic_implicit,"The board needs someone with uninterrupted availability, not maternity complications.",1,misogynistic,synthetic_benchmark,1,0.621255099773407,1,misogynistic
+implicit_0051,synthetic_implicit,"The shortlist already has one woman, so we are covered 🙂",1,misogynistic,synthetic_benchmark,1,0.01794523186981678,0,non-misogynistic
+implicit_0052,synthetic_implicit,"Clients expect a certain authority, so maybe send a male lead this time.",1,misogynistic,synthetic_benchmark,1,0.9649918079376221,1,misogynistic
+implicit_0053,synthetic_implicit,"She is qualified, but the optics are doing a lot of work here 📸",1,misogynistic,synthetic_benchmark,1,0.9948246479034424,1,misogynistic
+implicit_0054,synthetic_implicit,"For a travel-heavy role, a young woman might not be the safest choice.",1,misogynistic,synthetic_benchmark,1,0.9953010082244873,1,misogynistic
+implicit_0055,synthetic_implicit,"If we choose her, nobody can complain about inclusion this year 🙃",1,misogynistic,synthetic_benchmark,1,0.6414602398872375,1,misogynistic
+implicit_0056,synthetic_implicit,"Leadership continuity matters, so we should consider future childcare risks.",1,misogynistic,synthetic_benchmark,1,0.1903563141822815,0,non-misogynistic
+implicit_0057,synthetic_implicit,"She makes the panel look more balanced, which is the main thing 🎤",1,misogynistic,synthetic_benchmark,1,0.9910081028938293,1,misogynistic
+implicit_0058,synthetic_implicit,A male candidate might be easier to sell to conservative clients.,1,misogynistic,synthetic_benchmark,1,0.9527825117111206,1,misogynistic
+implicit_0059,synthetic_implicit,"Sure, she got the lead because the proposal needed balance 🙃",1,misogynistic,synthetic_benchmark,1,0.9358580708503723,1,misogynistic
+implicit_0060,synthetic_implicit,Amazing how every award suddenly finds a woman when the cameras are on.,1,misogynistic,synthetic_benchmark,1,0.9958119988441467,1,misogynistic
+implicit_0061,synthetic_implicit,"Of course she is the expert now, she read one article 😏",1,misogynistic,synthetic_benchmark,1,0.3172251284122467,0,non-misogynistic
+implicit_0062,synthetic_implicit,Nothing says objective hiring like picking the only woman in the room.,1,misogynistic,synthetic_benchmark,1,0.9970377683639526,1,misogynistic
+implicit_0063,synthetic_implicit,"Great, another female CEO story to prove everything is fixed 😂",1,misogynistic,synthetic_benchmark,1,0.9956242442131042,1,misogynistic
+implicit_0064,synthetic_implicit,"She disagreed in the meeting, so I guess that is empowerment now.",1,misogynistic,synthetic_benchmark,1,0.007196308113634586,0,non-misogynistic
+implicit_0065,synthetic_implicit,"Yes, let her explain trading risk, what could be more credible 🙄",1,misogynistic,synthetic_benchmark,1,0.8593443036079407,1,misogynistic
+implicit_0066,synthetic_implicit,Apparently asking basic questions makes her a strategic thinker now.,1,misogynistic,synthetic_benchmark,1,0.9955275654792786,1,misogynistic
+implicit_0067,synthetic_implicit,"Another woman in tech panel, groundbreaking stuff 🙃",1,misogynistic,synthetic_benchmark,1,0.0882415696978569,0,non-misogynistic
+implicit_0068,synthetic_implicit,She gave one confident answer and everyone acts like she invented confidence.,1,misogynistic,synthetic_benchmark,1,0.994840681552887,1,misogynistic
+implicit_0069,synthetic_implicit,Love when a diversity hire teaches us about merit 😌,1,misogynistic,synthetic_benchmark,1,0.9486895203590393,1,misogynistic
+implicit_0070,synthetic_implicit,"She asked for equal credit, so I guess teamwork is oppressive now.",1,misogynistic,synthetic_benchmark,1,0.9964021444320679,1,misogynistic
+implicit_0071,synthetic_implicit,"The project finally has a female voice, productivity saved ✨",1,misogynistic,synthetic_benchmark,1,0.964028537273407,1,misogynistic
+implicit_0072,synthetic_implicit,She corrected one formula and suddenly she is the quant lead.,1,misogynistic,synthetic_benchmark,1,0.995419979095459,1,misogynistic
+implicit_0073,synthetic_implicit,Are we sure she wrote the code herself? 🤔,1,misogynistic,synthetic_benchmark,1,0.06669294089078903,0,non-misogynistic
+implicit_0074,synthetic_implicit,"Her answer sounded prepared, but I wonder if she really understands it.",1,misogynistic,synthetic_benchmark,1,0.9955931305885315,1,misogynistic
+implicit_0075,synthetic_implicit,Maybe someone helped her with the math part 🧮,1,misogynistic,synthetic_benchmark,1,0.7090609669685364,1,misogynistic
+implicit_0076,synthetic_implicit,"She talks confidently, but I would check the numbers twice.",1,misogynistic,synthetic_benchmark,1,0.9955620765686035,1,misogynistic
+implicit_0077,synthetic_implicit,Hard to know if she was hired for skill or for balance 😬,1,misogynistic,synthetic_benchmark,1,0.837300181388855,1,misogynistic
+implicit_0078,synthetic_implicit,I want to see her handle pressure before trusting her with the client.,1,misogynistic,synthetic_benchmark,1,0.9957363605499268,1,misogynistic
+implicit_0079,synthetic_implicit,"The presentation was polished, but who built the actual model? 👀",1,misogynistic,synthetic_benchmark,1,0.2355687916278839,0,non-misogynistic
+implicit_0080,synthetic_implicit,"She knows the vocabulary, but that is different from understanding the system.",1,misogynistic,synthetic_benchmark,1,0.99744713306427,1,misogynistic
+implicit_0081,synthetic_implicit,"Before giving her the lead, ask a few technical questions just to be safe 🙂",1,misogynistic,synthetic_benchmark,1,0.9720268249511719,1,misogynistic
+implicit_0082,synthetic_implicit,She might be confident because the task was not that deep.,1,misogynistic,synthetic_benchmark,1,0.8130402565002441,1,misogynistic
+implicit_0083,synthetic_implicit,"I am not saying she cannot do it, just that the stakes are high 😐",1,misogynistic,synthetic_benchmark,1,0.029484430328011513,0,non-misogynistic
+implicit_0084,synthetic_implicit,"Her internship looks strong, but I would not assume she is technical.",1,misogynistic,synthetic_benchmark,1,0.549023449420929,1,misogynistic
+implicit_0085,synthetic_implicit,"She got the answer right, but maybe it was a lucky guess 🎯",1,misogynistic,synthetic_benchmark,1,0.9678437113761902,1,misogynistic
+implicit_0086,synthetic_implicit,Let us wait for a second opinion before using her estimate.,1,misogynistic,synthetic_benchmark,1,0.5237016081809998,1,misogynistic
+implicit_0087,synthetic_implicit,"When he is direct it is leadership, when she is direct it feels intense 🙃",1,misogynistic,synthetic_benchmark,1,0.9930180311203003,1,misogynistic
+implicit_0088,synthetic_implicit,She should smile more when giving feedback; it comes across harsh otherwise.,1,misogynistic,synthetic_benchmark,1,0.9954364895820618,1,misogynistic
+implicit_0089,synthetic_implicit,"He is passionate, but she sounds emotional saying the same thing 😬",1,misogynistic,synthetic_benchmark,1,0.9555414915084839,1,misogynistic
+implicit_0090,synthetic_implicit,"A man negotiating hard is normal, but she seems difficult.",1,misogynistic,synthetic_benchmark,1,0.9979665279388428,1,misogynistic
+implicit_0091,synthetic_implicit,"She is ambitious, just hope it does not turn into bossy energy 😅",1,misogynistic,synthetic_benchmark,1,0.6154816746711731,1,misogynistic
+implicit_0092,synthetic_implicit,"He takes charge, she interrupts.",1,misogynistic,synthetic_benchmark,1,0.3142129182815552,0,non-misogynistic
+implicit_0093,synthetic_implicit,"She is confident, but it comes off a bit much 💁",1,misogynistic,synthetic_benchmark,1,0.9645917415618896,1,misogynistic
+implicit_0094,synthetic_implicit,"A male founder can be intense, but she needs to be more approachable.",1,misogynistic,synthetic_benchmark,1,0.9972872734069824,1,misogynistic
+implicit_0095,synthetic_implicit,"She asked for credit again, kind of needy honestly 🙄",1,misogynistic,synthetic_benchmark,1,0.5460608601570129,1,misogynistic
+implicit_0096,synthetic_implicit,"He debates hard, she turns everything into conflict.",1,misogynistic,synthetic_benchmark,1,0.9975368976593018,1,misogynistic
+implicit_0097,synthetic_implicit,"She is assertive, but maybe tone it down for the client 🙂",1,misogynistic,synthetic_benchmark,1,0.9979526996612549,1,misogynistic
+implicit_0098,synthetic_implicit,"A guy making that joke would be relaxed, but from her it feels unprofessional.",1,misogynistic,synthetic_benchmark,1,0.9972251653671265,1,misogynistic
+implicit_0099,synthetic_implicit,"She wants the senior title already, ambitious much? 😏",1,misogynistic,synthetic_benchmark,1,0.10926350206136703,0,non-misogynistic
+implicit_0100,synthetic_implicit,"He is focused on results, she just seems cold.",1,misogynistic,synthetic_benchmark,1,0.9538150429725647,1,misogynistic
+neutral_0001,synthetic_neutral,The survey asked women and men about their study habits.,0,non_misogynistic,synthetic_benchmark,0,0.0022042097989469767,0,non-misogynistic
+neutral_0002,synthetic_neutral,The report includes a section on girls' participation in sports 📊,0,non_misogynistic,synthetic_benchmark,0,0.007915932685136795,0,non-misogynistic
+neutral_0003,synthetic_neutral,She selected the gender studies seminar for next semester.,0,non_misogynistic,synthetic_benchmark,0,0.022678984329104424,0,non-misogynistic
+neutral_0004,synthetic_neutral,The dataset marks whether each speaker is male or female 🗂️,0,non_misogynistic,synthetic_benchmark,0,0.004670433234423399,0,non-misogynistic
+neutral_0005,synthetic_neutral,The article compares how women and men use public transport.,0,non_misogynistic,synthetic_benchmark,0,0.002368747955188155,0,non-misogynistic
+neutral_0006,synthetic_neutral,Her presentation mentioned gender balance in local clubs 🎤,0,non_misogynistic,synthetic_benchmark,0,0.17871393263339996,0,non-misogynistic
+neutral_0007,synthetic_neutral,The form lets each woman choose the title she prefers.,0,non_misogynistic,synthetic_benchmark,0,0.004244448151439428,0,non-misogynistic
+neutral_0008,synthetic_neutral,The podcast episode was about feminism in everyday language 🎧,0,non_misogynistic,synthetic_benchmark,0,0.019806385040283203,0,non-misogynistic
+neutral_0009,synthetic_neutral,The class discussed how girls and boys choose school subjects.,0,non_misogynistic,synthetic_benchmark,0,0.005011259112507105,0,non-misogynistic
+neutral_0010,synthetic_neutral,The chart shows the number of female students by program 📈,0,non_misogynistic,synthetic_benchmark,0,0.00791511032730341,0,non-misogynistic
+neutral_0011,synthetic_neutral,She asked whether the survey included non-binary options.,0,non_misogynistic,synthetic_benchmark,0,0.005286105442792177,0,non-misogynistic
+neutral_0012,synthetic_neutral,The workshop introduced basic concepts in feminist theory 📚,0,non_misogynistic,synthetic_benchmark,0,0.004986166954040527,0,non-misogynistic
+neutral_0013,synthetic_neutral,The panel asked women entrepreneurs about remote work.,0,non_misogynistic,synthetic_benchmark,0,0.006691474933177233,0,non-misogynistic
+neutral_0014,synthetic_neutral,Her notes separate the results for women and men 📝,0,non_misogynistic,synthetic_benchmark,0,0.008118977770209312,0,non-misogynistic
+neutral_0015,synthetic_neutral,The meeting included a short update on girls' education programs.,0,non_misogynistic,synthetic_benchmark,0,0.006746124010533094,0,non-misogynistic
+neutral_0016,synthetic_neutral,Feminism can be discussed seriously without turning it into a stereotype.,0,non_misogynistic,synthetic_benchmark,0,0.004478127229958773,0,non-misogynistic
+neutral_0017,synthetic_neutral,She made a clear point about feminist organizing today ✊,0,non_misogynistic,synthetic_benchmark,0,0.01841924339532852,0,non-misogynistic
+neutral_0018,synthetic_neutral,The feminist reading group meets every Thursday.,0,non_misogynistic,synthetic_benchmark,0,0.0038429475389420986,0,non-misogynistic
+neutral_0019,synthetic_neutral,Women sharing their experiences online can help others feel less alone 💬,0,non_misogynistic,synthetic_benchmark,0,0.049498848617076874,0,non-misogynistic
+neutral_0020,synthetic_neutral,Her essay explains why feminism is not the same as blaming men.,0,non_misogynistic,synthetic_benchmark,0,0.009302821010351181,0,non-misogynistic
+neutral_0021,synthetic_neutral,A feminist perspective can improve how teams discuss fairness ⚖️,0,non_misogynistic,synthetic_benchmark,0,0.02203732170164585,0,non-misogynistic
+neutral_0022,synthetic_neutral,The book club picked a novel about women's friendships.,0,non_misogynistic,synthetic_benchmark,0,0.006168784108012915,0,non-misogynistic
+neutral_0023,synthetic_neutral,She said feminism should include practical workplace changes 💼,0,non_misogynistic,synthetic_benchmark,0,0.04349152743816376,0,non-misogynistic
+neutral_0024,synthetic_neutral,The discussion focused on feminist history and social policy.,0,non_misogynistic,synthetic_benchmark,0,0.0071106539107859135,0,non-misogynistic
+neutral_0025,synthetic_neutral,Women can disagree about feminism and still argue in good faith 🤝,0,non_misogynistic,synthetic_benchmark,0,0.055052850395441055,0,non-misogynistic
+neutral_0026,synthetic_neutral,Her article frames feminism as a question of equal opportunity.,0,non_misogynistic,synthetic_benchmark,0,0.021269625052809715,0,non-misogynistic
+neutral_0027,synthetic_neutral,The seminar invited students to define what feminist leadership means 🌱,0,non_misogynistic,synthetic_benchmark,0,0.08237750083208084,0,non-misogynistic
+neutral_0028,synthetic_neutral,She recommended a podcast about women writers.,0,non_misogynistic,synthetic_benchmark,0,0.005000694654881954,0,non-misogynistic
+neutral_0029,synthetic_neutral,Feminist analysis can highlight patterns that are easy to miss 🔍,0,non_misogynistic,synthetic_benchmark,0,0.21272368729114532,0,non-misogynistic
+neutral_0030,synthetic_neutral,The conversation about feminism stayed calm and useful.,0,non_misogynistic,synthetic_benchmark,0,0.004830074496567249,0,non-misogynistic
+neutral_0031,synthetic_neutral,Women should have equal access to healthcare.,0,non_misogynistic,synthetic_benchmark,0,0.0021156389266252518,0,non-misogynistic
+neutral_0032,synthetic_neutral,Girls deserve safe schools and strong teachers 🎓,0,non_misogynistic,synthetic_benchmark,0,0.0344822071492672,0,non-misogynistic
+neutral_0033,synthetic_neutral,A woman should be able to report harassment without being ignored.,0,non_misogynistic,synthetic_benchmark,0,0.007879062555730343,0,non-misogynistic
+neutral_0034,synthetic_neutral,Women deserve fair treatment in hiring and promotion ✅,0,non_misogynistic,synthetic_benchmark,0,0.020848093554377556,0,non-misogynistic
+neutral_0035,synthetic_neutral,Her right to speak in the meeting should be respected.,0,non_misogynistic,synthetic_benchmark,0,0.003327425802126527,0,non-misogynistic
+neutral_0036,synthetic_neutral,Women should not be punished for asking for equal pay 💪,0,non_misogynistic,synthetic_benchmark,0,0.09167312830686569,0,non-misogynistic
+neutral_0037,synthetic_neutral,Girls need equal chances to join science clubs.,0,non_misogynistic,synthetic_benchmark,0,0.017112405970692635,0,non-misogynistic
+neutral_0038,synthetic_neutral,She should not have to choose between safety and participation 🛡️,0,non_misogynistic,synthetic_benchmark,0,0.02280469797551632,0,non-misogynistic
+neutral_0039,synthetic_neutral,Women have the right to be heard in policy discussions.,0,non_misogynistic,synthetic_benchmark,0,0.0023611539509147406,0,non-misogynistic
+neutral_0040,synthetic_neutral,Every woman deserves basic respect at work 🤝,0,non_misogynistic,synthetic_benchmark,0,0.4433479309082031,0,non-misogynistic
+neutral_0041,synthetic_neutral,Girls should have the same access to sports facilities.,0,non_misogynistic,synthetic_benchmark,0,0.0026793235447257757,0,non-misogynistic
+neutral_0042,synthetic_neutral,"Her complaint should be reviewed fairly, not dismissed 📄",0,non_misogynistic,synthetic_benchmark,0,0.00841092225164175,0,non-misogynistic
+neutral_0043,synthetic_neutral,Women should be able to set boundaries without being mocked.,0,non_misogynistic,synthetic_benchmark,0,0.005438336171209812,0,non-misogynistic
+neutral_0044,synthetic_neutral,Girls' voices matter in community decisions 🗣️,0,non_misogynistic,synthetic_benchmark,0,0.13211648166179657,0,non-misogynistic
+neutral_0045,synthetic_neutral,She left her notebook in the classroom again.,0,non_misogynistic,synthetic_benchmark,0,0.0057220482267439365,0,non-misogynistic
+neutral_0046,synthetic_neutral,Her coffee order was ready before mine ☕,0,non_misogynistic,synthetic_benchmark,0,0.03451196104288101,0,non-misogynistic
+neutral_0047,synthetic_neutral,The woman at the front desk gave me the schedule.,0,non_misogynistic,synthetic_benchmark,0,0.014287453144788742,0,non-misogynistic
+neutral_0048,synthetic_neutral,She sent the group chat a reminder about lunch 🍽️,0,non_misogynistic,synthetic_benchmark,0,0.023319361731410027,0,non-misogynistic
+neutral_0049,synthetic_neutral,A girl near the entrance asked where the library was.,0,non_misogynistic,synthetic_benchmark,0,0.0018289785366505384,0,non-misogynistic
+neutral_0050,synthetic_neutral,Her jacket matched the color of the poster 🎨,0,non_misogynistic,synthetic_benchmark,0,0.05988642945885658,0,non-misogynistic
+neutral_0051,synthetic_neutral,She said the train was delayed by ten minutes.,0,non_misogynistic,synthetic_benchmark,0,0.003267002524808049,0,non-misogynistic
+neutral_0052,synthetic_neutral,The women in the apartment next door were moving furniture 🪑,0,non_misogynistic,synthetic_benchmark,0,0.09981691837310791,0,non-misogynistic
+neutral_0053,synthetic_neutral,Her dog waited quietly outside the shop.,0,non_misogynistic,synthetic_benchmark,0,0.003357651876285672,0,non-misogynistic
+neutral_0054,synthetic_neutral,She picked the window seat on the bus 🚌,0,non_misogynistic,synthetic_benchmark,0,0.15654256939888,0,non-misogynistic
+neutral_0055,synthetic_neutral,The female cashier scanned the items quickly.,0,non_misogynistic,synthetic_benchmark,0,0.011107731610536575,0,non-misogynistic
+neutral_0056,synthetic_neutral,Her playlist had a lot of calm songs 🎧,0,non_misogynistic,synthetic_benchmark,0,0.0923660546541214,0,non-misogynistic
+neutral_0057,synthetic_neutral,She asked for directions to the conference room.,0,non_misogynistic,synthetic_benchmark,0,0.018169758841395378,0,non-misogynistic
+neutral_0058,synthetic_neutral,The girls from my class started a book exchange 📚,0,non_misogynistic,synthetic_benchmark,0,0.007850917987525463,0,non-misogynistic
+neutral_0059,synthetic_neutral,The professor asked her to explain the regression result.,0,non_misogynistic,synthetic_benchmark,0,0.032059963792562485,0,non-misogynistic
+neutral_0060,synthetic_neutral,The female applicants were included in the final sample 📊,0,non_misogynistic,synthetic_benchmark,0,0.0060154227539896965,0,non-misogynistic
+neutral_0061,synthetic_neutral,She submitted the draft before the deadline.,0,non_misogynistic,synthetic_benchmark,0,0.013593340292572975,0,non-misogynistic
+neutral_0062,synthetic_neutral,Women researchers presented three posters at the workshop 🧪,0,non_misogynistic,synthetic_benchmark,0,0.09129800647497177,0,non-misogynistic
+neutral_0063,synthetic_neutral,Her supervisor suggested a clearer title for the paper.,0,non_misogynistic,synthetic_benchmark,0,0.016661852598190308,0,non-misogynistic
+neutral_0064,synthetic_neutral,The study compares female and male enrollment rates 🎓,0,non_misogynistic,synthetic_benchmark,0,0.007013109978288412,0,non-misogynistic
+neutral_0065,synthetic_neutral,She led the meeting and summarized the next steps.,0,non_misogynistic,synthetic_benchmark,0,0.030360320582985878,0,non-misogynistic
+neutral_0066,synthetic_neutral,The women on the project team reviewed the methodology 📝,0,non_misogynistic,synthetic_benchmark,0,0.008721931837499142,0,non-misogynistic
+neutral_0067,synthetic_neutral,Her thesis focuses on labor markets and gender gaps.,0,non_misogynistic,synthetic_benchmark,0,0.005094220396131277,0,non-misogynistic
+neutral_0068,synthetic_neutral,The female panelists answered questions from students 🎤,0,non_misogynistic,synthetic_benchmark,0,0.006502128206193447,0,non-misogynistic
+neutral_0069,synthetic_neutral,She updated the spreadsheet after the seminar.,0,non_misogynistic,synthetic_benchmark,0,0.02243400365114212,0,non-misogynistic
+neutral_0070,synthetic_neutral,The paper studies how women enter engineering programs 🔬,0,non_misogynistic,synthetic_benchmark,0,0.05517347529530525,0,non-misogynistic
+neutral_0071,synthetic_neutral,Her team tested the model on a balanced dataset.,0,non_misogynistic,synthetic_benchmark,0,0.00726283947005868,0,non-misogynistic
+neutral_0072,synthetic_neutral,Women faculty members joined the curriculum review committee 📋,0,non_misogynistic,synthetic_benchmark,0,0.013264297507703304,0,non-misogynistic
+neutral_0073,synthetic_neutral,Women in the team brought strong ideas to the project.,0,non_misogynistic,synthetic_benchmark,0,0.1577753871679306,0,non-misogynistic
+neutral_0074,synthetic_neutral,She handled the presentation clearly and confidently 👏,0,non_misogynistic,synthetic_benchmark,0,0.0251824539154768,0,non-misogynistic
+neutral_0075,synthetic_neutral,The girls in the coding club built a useful app.,0,non_misogynistic,synthetic_benchmark,0,0.004767799284309149,0,non-misogynistic
+neutral_0076,synthetic_neutral,Her analysis was careful and easy to follow 📈,0,non_misogynistic,synthetic_benchmark,0,0.17516133189201355,0,non-misogynistic
+neutral_0077,synthetic_neutral,That woman gave the clearest explanation in the session.,0,non_misogynistic,synthetic_benchmark,0,0.03773030638694763,0,non-misogynistic
+neutral_0078,synthetic_neutral,Women leaders can create strong and thoughtful teams 🌟,0,non_misogynistic,synthetic_benchmark,0,0.7350199818611145,1,misogynistic
+neutral_0079,synthetic_neutral,She solved the issue before the deadline.,0,non_misogynistic,synthetic_benchmark,0,0.07298746705055237,0,non-misogynistic
+neutral_0080,synthetic_neutral,The female speaker made a complex topic accessible 🎙️,0,non_misogynistic,synthetic_benchmark,0,0.8642048835754395,1,misogynistic
+neutral_0081,synthetic_neutral,Her advice helped the group avoid a mistake.,0,non_misogynistic,synthetic_benchmark,0,0.07244617491960526,0,non-misogynistic
+neutral_0082,synthetic_neutral,Girls who enjoy math should be encouraged 🧮,0,non_misogynistic,synthetic_benchmark,0,0.234329491853714,0,non-misogynistic
+neutral_0083,synthetic_neutral,She stayed calm and made the discussion more productive.,0,non_misogynistic,synthetic_benchmark,0,0.34813758730888367,0,non-misogynistic
+neutral_0084,synthetic_neutral,Women mentors can make a real difference for students 🌱,0,non_misogynistic,synthetic_benchmark,0,0.0746566504240036,0,non-misogynistic
+neutral_0085,synthetic_neutral,Her design choice made the interface easier to use.,0,non_misogynistic,synthetic_benchmark,0,0.7818899750709534,1,misogynistic
+neutral_0086,synthetic_neutral,The women volunteers organized the event smoothly ✅,0,non_misogynistic,synthetic_benchmark,0,0.05257255211472511,0,non-misogynistic
+neutral_0087,synthetic_neutral,Gender equality means the same standards for everyone.,0,non_misogynistic,synthetic_benchmark,0,0.001365767209790647,0,non-misogynistic
+neutral_0088,synthetic_neutral,Women and men should both get credit for their work ⚖️,0,non_misogynistic,synthetic_benchmark,0,0.007985365577042103,0,non-misogynistic
+neutral_0089,synthetic_neutral,She argued that equal pay policies should be easier to audit.,0,non_misogynistic,synthetic_benchmark,0,0.09734497219324112,0,non-misogynistic
+neutral_0090,synthetic_neutral,Girls and boys should have equal access to robotics clubs 🤖,0,non_misogynistic,synthetic_benchmark,0,0.05946594476699829,0,non-misogynistic
+neutral_0091,synthetic_neutral,A fair process should evaluate each woman by her qualifications.,0,non_misogynistic,synthetic_benchmark,0,0.020073730498552322,0,non-misogynistic
+neutral_0092,synthetic_neutral,The team reviewed whether female candidates received the same feedback 📋,0,non_misogynistic,synthetic_benchmark,0,0.0038351223338395357,0,non-misogynistic
+neutral_0093,synthetic_neutral,Feminism and gender equality are common topics in the course.,0,non_misogynistic,synthetic_benchmark,0,0.004755644593387842,0,non-misogynistic
+neutral_0094,synthetic_neutral,Her point was that parental leave should not hurt promotion chances 👶,0,non_misogynistic,synthetic_benchmark,0,0.0414818711578846,0,non-misogynistic
+neutral_0095,synthetic_neutral,Women should not need extra proof to be taken seriously.,0,non_misogynistic,synthetic_benchmark,0,0.0023334415163844824,0,non-misogynistic
+neutral_0096,synthetic_neutral,The group discussed how to make internships fairer for girls 🎒,0,non_misogynistic,synthetic_benchmark,0,0.0665174052119255,0,non-misogynistic
+neutral_0097,synthetic_neutral,She said gender equality also helps teams use talent better.,0,non_misogynistic,synthetic_benchmark,0,0.006202573422342539,0,non-misogynistic
+neutral_0098,synthetic_neutral,Equal opportunity for women is a reasonable workplace goal 💼,0,non_misogynistic,synthetic_benchmark,0,0.02596459910273552,0,non-misogynistic
+neutral_0099,synthetic_neutral,The committee asked whether her evaluation used the same criteria.,0,non_misogynistic,synthetic_benchmark,0,0.008596690371632576,0,non-misogynistic
+neutral_0100,synthetic_neutral,Women and men should both feel welcome in the lab 🧪,0,non_misogynistic,synthetic_benchmark,0,0.12472382187843323,0,non-misogynistic
+explicit_0001,synthetic_explicit,Women are useless in serious debates.,1,misogynistic,synthetic_benchmark,1,0.9976105690002441,1,misogynistic
+explicit_0002,synthetic_explicit,Every woman in that meeting was a waste of time 🙄,1,misogynistic,synthetic_benchmark,1,0.9966742992401123,1,misogynistic
+explicit_0003,synthetic_explicit,Women bring nothing useful to strategy discussions.,1,misogynistic,synthetic_benchmark,1,0.9978753328323364,1,misogynistic
+explicit_0004,synthetic_explicit,A female opinion on this topic is automatically worthless.,1,misogynistic,synthetic_benchmark,1,0.9976778626441956,1,misogynistic
+explicit_0005,synthetic_explicit,Women are the weakest part of every team 😂,1,misogynistic,synthetic_benchmark,1,0.9922206997871399,1,misogynistic
+explicit_0006,synthetic_explicit,No woman ever makes a technical discussion better.,1,misogynistic,synthetic_benchmark,1,0.9980356097221375,1,misogynistic
+explicit_0007,synthetic_explicit,Women are terrible at anything that requires logic.,1,misogynistic,synthetic_benchmark,1,0.9978501796722412,1,misogynistic
+explicit_0008,synthetic_explicit,Female managers are a joke 😒,1,misogynistic,synthetic_benchmark,1,0.9953711628913879,1,misogynistic
+explicit_0009,synthetic_explicit,Women are embarrassing when they try to sound smart.,1,misogynistic,synthetic_benchmark,1,0.9979187846183777,1,misogynistic
+explicit_0010,synthetic_explicit,A woman leading this project is already a bad sign.,1,misogynistic,synthetic_benchmark,1,0.9952126741409302,1,misogynistic
+explicit_0011,synthetic_explicit,Women always lower the level of the conversation 🤦,1,misogynistic,synthetic_benchmark,1,0.9814545512199402,1,misogynistic
+explicit_0012,synthetic_explicit,Female experts are just hard to take seriously.,1,misogynistic,synthetic_benchmark,1,0.9980687499046326,1,misogynistic
+explicit_0013,synthetic_explicit,"Women are bad at leadership, simple as that.",1,misogynistic,synthetic_benchmark,1,0.9981866478919983,1,misogynistic
+explicit_0014,synthetic_explicit,Her whole argument was female nonsense 🙃,1,misogynistic,synthetic_benchmark,1,0.9019887447357178,1,misogynistic
+explicit_0015,synthetic_explicit,Women are not built for serious thinking.,1,misogynistic,synthetic_benchmark,1,0.9977906942367554,1,misogynistic
+explicit_0016,synthetic_explicit,A woman explaining finance is always painful to watch.,1,misogynistic,synthetic_benchmark,1,0.9977424144744873,1,misogynistic
+explicit_0017,synthetic_explicit,Women ruin the vibe whenever real work starts 😑,1,misogynistic,synthetic_benchmark,1,0.9811229109764099,1,misogynistic
+explicit_0018,synthetic_explicit,Female ambition is usually just annoying.,1,misogynistic,synthetic_benchmark,1,0.9977602958679199,1,misogynistic
+explicit_0019,synthetic_explicit,Women are the reason standards keep dropping.,1,misogynistic,synthetic_benchmark,1,0.9970996379852295,1,misogynistic
+explicit_0020,synthetic_explicit,Nothing useful starts with letting women decide 😏,1,misogynistic,synthetic_benchmark,1,0.9925998449325562,1,misogynistic
+explicit_0021,synthetic_explicit,Women should stay out of competitive gaming.,1,misogynistic,synthetic_benchmark,1,0.9867810606956482,1,misogynistic
+explicit_0022,synthetic_explicit,"No women on the engineering team, please 🙄",1,misogynistic,synthetic_benchmark,1,0.9960271120071411,1,misogynistic
+explicit_0023,synthetic_explicit,Women do not belong in trading rooms.,1,misogynistic,synthetic_benchmark,1,0.9957762360572815,1,misogynistic
+explicit_0024,synthetic_explicit,Keep women away from the serious technical work.,1,misogynistic,synthetic_benchmark,1,0.9979276657104492,1,misogynistic
+explicit_0025,synthetic_explicit,This club was better before women joined 😒,1,misogynistic,synthetic_benchmark,1,0.9929048418998718,1,misogynistic
+explicit_0026,synthetic_explicit,Women should not be allowed to lead strategy meetings.,1,misogynistic,synthetic_benchmark,1,0.996561586856842,1,misogynistic
+explicit_0027,synthetic_explicit,A female analyst should not be assigned to this account.,1,misogynistic,synthetic_benchmark,1,0.9957365989685059,1,misogynistic
+explicit_0028,synthetic_explicit,Women should sit this one out 😂,1,misogynistic,synthetic_benchmark,1,0.983185887336731,1,misogynistic
+explicit_0029,synthetic_explicit,Do not put women in charge of financial decisions.,1,misogynistic,synthetic_benchmark,1,0.9977374076843262,1,misogynistic
+explicit_0030,synthetic_explicit,Women have no place in this industry.,1,misogynistic,synthetic_benchmark,1,0.997944176197052,1,misogynistic
+explicit_0031,synthetic_explicit,This server should be men only 🙃,1,misogynistic,synthetic_benchmark,1,0.13544082641601562,0,non-misogynistic
+explicit_0032,synthetic_explicit,Women should not be part of high-pressure roles.,1,misogynistic,synthetic_benchmark,1,0.8862857818603516,1,misogynistic
+explicit_0033,synthetic_explicit,No female voices needed in this debate.,1,misogynistic,synthetic_benchmark,1,0.9933710098266602,1,misogynistic
+explicit_0034,synthetic_explicit,Women should leave the coding to others 💻,1,misogynistic,synthetic_benchmark,1,0.8240740895271301,1,misogynistic
+explicit_0035,synthetic_explicit,Do not invite women if we want a serious panel.,1,misogynistic,synthetic_benchmark,1,0.9980199337005615,1,misogynistic
+explicit_0036,synthetic_explicit,Women should stay away from political analysis.,1,misogynistic,synthetic_benchmark,1,0.9976034760475159,1,misogynistic
+explicit_0037,synthetic_explicit,This project needs fewer women and more competence 😬,1,misogynistic,synthetic_benchmark,1,0.9779160618782043,1,misogynistic
+explicit_0038,synthetic_explicit,Keep women out of the boardroom.,1,misogynistic,synthetic_benchmark,1,0.9980267882347107,1,misogynistic
+explicit_0039,synthetic_explicit,Women should not be accepted into this program.,1,misogynistic,synthetic_benchmark,1,0.585785448551178,1,misogynistic
+explicit_0040,synthetic_explicit,The tournament should have stayed male only 🏆,1,misogynistic,synthetic_benchmark,1,0.3803921937942505,0,non-misogynistic
+explicit_0041,synthetic_explicit,Women always turn simple problems into drama.,1,misogynistic,synthetic_benchmark,1,0.9981204867362976,1,misogynistic
+explicit_0042,synthetic_explicit,Every woman in the office complains about everything 🙄,1,misogynistic,synthetic_benchmark,1,0.99698406457901,1,misogynistic
+explicit_0043,synthetic_explicit,Women always need attention in every discussion.,1,misogynistic,synthetic_benchmark,1,0.34955647587776184,0,non-misogynistic
+explicit_0044,synthetic_explicit,Women make every workplace more difficult.,1,misogynistic,synthetic_benchmark,1,0.997858464717865,1,misogynistic
+explicit_0045,synthetic_explicit,Women always act like victims 😂,1,misogynistic,synthetic_benchmark,1,0.9767913818359375,1,misogynistic
+explicit_0046,synthetic_explicit,Women cannot handle criticism without making it personal.,1,misogynistic,synthetic_benchmark,1,0.9971650242805481,1,misogynistic
+explicit_0047,synthetic_explicit,Women always destroy group dynamics.,1,misogynistic,synthetic_benchmark,1,0.9978435039520264,1,misogynistic
+explicit_0048,synthetic_explicit,Every female-led project becomes chaos 🤦,1,misogynistic,synthetic_benchmark,1,0.9933663010597229,1,misogynistic
+explicit_0049,synthetic_explicit,Women always expect special treatment.,1,misogynistic,synthetic_benchmark,1,0.08517926931381226,0,non-misogynistic
+explicit_0050,synthetic_explicit,Women turn every disagreement into a personal attack.,1,misogynistic,synthetic_benchmark,1,0.9980217218399048,1,misogynistic
+explicit_0051,synthetic_explicit,Women always make things about feelings 😒,1,misogynistic,synthetic_benchmark,1,0.9781870245933533,1,misogynistic
+explicit_0052,synthetic_explicit,Female coworkers always create unnecessary problems.,1,misogynistic,synthetic_benchmark,1,0.9973020553588867,1,misogynistic
+explicit_0053,synthetic_explicit,Women never admit when they are wrong.,1,misogynistic,synthetic_benchmark,1,0.9979629516601562,1,misogynistic
+explicit_0054,synthetic_explicit,Women always overreact to normal comments 🙃,1,misogynistic,synthetic_benchmark,1,0.9886550903320312,1,misogynistic
+explicit_0055,synthetic_explicit,Women are always looking for reasons to complain.,1,misogynistic,synthetic_benchmark,1,0.9977770447731018,1,misogynistic
+explicit_0056,synthetic_explicit,Female students always want exceptions.,1,misogynistic,synthetic_benchmark,1,0.9981037378311157,1,misogynistic
+explicit_0057,synthetic_explicit,Women make every debate exhausting 😑,1,misogynistic,synthetic_benchmark,1,0.9571375250816345,1,misogynistic
+explicit_0058,synthetic_explicit,Women always bring unnecessary emotions into business.,1,misogynistic,synthetic_benchmark,1,0.9977477192878723,1,misogynistic
+explicit_0059,synthetic_explicit,Female leaders always turn confident teams into drama.,1,misogynistic,synthetic_benchmark,1,0.9981309771537781,1,misogynistic
+explicit_0060,synthetic_explicit,Women always make simple work political 🙄,1,misogynistic,synthetic_benchmark,1,0.9879480004310608,1,misogynistic
+explicit_0061,synthetic_explicit,Women should focus on family instead of chasing leadership.,1,misogynistic,synthetic_benchmark,1,0.9945461750030518,1,misogynistic
+explicit_0062,synthetic_explicit,She should stop acting ambitious and learn her place 🙄,1,misogynistic,synthetic_benchmark,1,0.43807297945022583,0,non-misogynistic
+explicit_0063,synthetic_explicit,"Women are better suited for support roles, not leadership.",1,misogynistic,synthetic_benchmark,1,0.9970525503158569,1,misogynistic
+explicit_0064,synthetic_explicit,A woman should not be trying to dominate the room.,1,misogynistic,synthetic_benchmark,1,0.28599467873573303,0,non-misogynistic
+explicit_0065,synthetic_explicit,Female confidence is just arrogance with makeup 💄,1,misogynistic,synthetic_benchmark,1,0.9930175542831421,1,misogynistic
+explicit_0066,synthetic_explicit,Women should leave the hard decisions to men.,1,misogynistic,synthetic_benchmark,1,0.9933198690414429,1,misogynistic
+explicit_0067,synthetic_explicit,She talks too much for someone who should be listening.,1,misogynistic,synthetic_benchmark,1,0.9972254037857056,1,misogynistic
+explicit_0068,synthetic_explicit,"Women belong in caring roles, not executive seats 😌",1,misogynistic,synthetic_benchmark,1,0.905037522315979,1,misogynistic
+explicit_0069,synthetic_explicit,A woman arguing with men just looks ridiculous.,1,misogynistic,synthetic_benchmark,1,0.9957441687583923,1,misogynistic
+explicit_0070,synthetic_explicit,"Women should be pleasant, not opinionated.",1,misogynistic,synthetic_benchmark,1,0.10864325612783432,0,non-misogynistic
+explicit_0071,synthetic_explicit,She should smile more and stop pretending to be the boss 🙂,1,misogynistic,synthetic_benchmark,1,0.9777727723121643,1,misogynistic
+explicit_0072,synthetic_explicit,"Women are meant to assist, not run things.",1,misogynistic,synthetic_benchmark,1,0.9955281615257263,1,misogynistic
+explicit_0073,synthetic_explicit,A female boss is always trying too hard.,1,misogynistic,synthetic_benchmark,1,0.9979161620140076,1,misogynistic
+explicit_0074,synthetic_explicit,Women should stop competing with men and stay realistic 😂,1,misogynistic,synthetic_benchmark,1,0.984887421131134,1,misogynistic
+explicit_0075,synthetic_explicit,She is too loud for a woman.,1,misogynistic,synthetic_benchmark,1,0.9969383478164673,1,misogynistic
+explicit_0076,synthetic_explicit,Women should not act like they are in charge.,1,misogynistic,synthetic_benchmark,1,0.3856583535671234,0,non-misogynistic
+explicit_0077,synthetic_explicit,"Her job should be keeping the team comfortable, not making calls 🤷",1,misogynistic,synthetic_benchmark,1,0.9922986626625061,1,misogynistic
+explicit_0078,synthetic_explicit,A woman with too much authority is always a problem.,1,misogynistic,synthetic_benchmark,1,0.9979287385940552,1,misogynistic
+explicit_0079,synthetic_explicit,Female independence is mostly just attitude.,1,misogynistic,synthetic_benchmark,1,0.2612166702747345,0,non-misogynistic
+explicit_0080,synthetic_explicit,She should stop acting like one of the guys 😏,1,misogynistic,synthetic_benchmark,1,0.20962437987327576,0,non-misogynistic
+explicit_0081,synthetic_explicit,Her looks are the only reason anyone listens.,1,misogynistic,synthetic_benchmark,1,0.9974040389060974,1,misogynistic
+explicit_0082,synthetic_explicit,She should worry less about opinions and more about looking decent 💄,1,misogynistic,synthetic_benchmark,1,0.9877820611000061,1,misogynistic
+explicit_0083,synthetic_explicit,"Nobody asked for her analysis, just the photo.",1,misogynistic,synthetic_benchmark,1,0.5413336157798767,1,misogynistic
+explicit_0084,synthetic_explicit,She is not attractive enough to be this confident.,1,misogynistic,synthetic_benchmark,1,0.9270258545875549,1,misogynistic
+explicit_0085,synthetic_explicit,Female influencers age badly and still expect attention 😂,1,misogynistic,synthetic_benchmark,1,0.9974455833435059,1,misogynistic
+explicit_0086,synthetic_explicit,Her face is doing more work than her brain.,1,misogynistic,synthetic_benchmark,1,0.9624485373497009,1,misogynistic
+explicit_0087,synthetic_explicit,She only got followers because of how she looks.,1,misogynistic,synthetic_benchmark,1,0.05870700255036354,0,non-misogynistic
+explicit_0088,synthetic_explicit,A woman that plain should not act superior 😒,1,misogynistic,synthetic_benchmark,1,0.4441971778869629,0,non-misogynistic
+explicit_0089,synthetic_explicit,Her presentation would be ignored if she looked ordinary.,1,misogynistic,synthetic_benchmark,1,0.9107794165611267,1,misogynistic
+explicit_0090,synthetic_explicit,"She should post selfies, not opinions.",1,misogynistic,synthetic_benchmark,1,0.2536577582359314,0,non-misogynistic
+explicit_0091,synthetic_explicit,Her makeup is more convincing than her argument 🙃,1,misogynistic,synthetic_benchmark,1,0.9970884919166565,1,misogynistic
+explicit_0092,synthetic_explicit,Women online act like looking good counts as talent.,1,misogynistic,synthetic_benchmark,1,0.5369283556938171,1,misogynistic
+explicit_0093,synthetic_explicit,She is too average-looking to be that demanding.,1,misogynistic,synthetic_benchmark,1,0.9931647181510925,1,misogynistic
+explicit_0094,synthetic_explicit,Her outfit is the only interesting thing she contributed 👗,1,misogynistic,synthetic_benchmark,1,0.23611077666282654,0,non-misogynistic
+explicit_0095,synthetic_explicit,A woman should look polished before acting important.,1,misogynistic,synthetic_benchmark,1,0.9875203371047974,1,misogynistic
+explicit_0096,synthetic_explicit,She is only confident because people compliment her looks.,1,misogynistic,synthetic_benchmark,1,0.5078628659248352,1,misogynistic
+explicit_0097,synthetic_explicit,Her profile picture is doing all the heavy lifting 😏,1,misogynistic,synthetic_benchmark,1,0.5754426717758179,1,misogynistic
+explicit_0098,synthetic_explicit,Women like her get attention first and respect never.,1,misogynistic,synthetic_benchmark,1,0.9982169270515442,1,misogynistic
+explicit_0099,synthetic_explicit,She should fix her look before giving advice.,1,misogynistic,synthetic_benchmark,1,0.991534411907196,1,misogynistic
+explicit_0100,synthetic_explicit,"Her appearance is the whole brand, nothing else 📸",1,misogynistic,synthetic_benchmark,1,0.9720962047576904,1,misogynistic
+pair_0001_plain,synthetic_pairs_plain,Women are useless at serious technical work.,1,misogynistic,synthetic_benchmark,1,0.9975711703300476,1,misogynistic
+pair_0001_emoji,synthetic_pairs_emoji,Women are useless at serious technical work. 🙄,1,misogynistic,synthetic_benchmark,1,0.9943389296531677,1,misogynistic
+pair_0002_plain,synthetic_pairs_plain,No woman should be trusted to lead a team.,1,misogynistic,synthetic_benchmark,1,0.9975678324699402,1,misogynistic
+pair_0002_emoji,synthetic_pairs_emoji,No woman should be trusted to lead a team. 😒,1,misogynistic,synthetic_benchmark,1,0.9839298129081726,1,misogynistic
+pair_0003_plain,synthetic_pairs_plain,Women ruin every discussion when they join.,1,misogynistic,synthetic_benchmark,1,0.9981468915939331,1,misogynistic
+pair_0003_emoji,synthetic_pairs_emoji,Women ruin every discussion when they join. 🤦,1,misogynistic,synthetic_benchmark,1,0.9930601119995117,1,misogynistic
+pair_0004_plain,synthetic_pairs_plain,Female managers are always a disaster.,1,misogynistic,synthetic_benchmark,1,0.9980292916297913,1,misogynistic
+pair_0004_emoji,synthetic_pairs_emoji,Female managers are always a disaster. 😂,1,misogynistic,synthetic_benchmark,1,0.9960111379623413,1,misogynistic
+pair_0005_plain,synthetic_pairs_plain,Women do not belong in competitive gaming.,1,misogynistic,synthetic_benchmark,1,0.9904373288154602,1,misogynistic
+pair_0005_emoji,synthetic_pairs_emoji,Women do not belong in competitive gaming. 🎮,1,misogynistic,synthetic_benchmark,1,0.7590562105178833,1,misogynistic
+pair_0006_plain,synthetic_pairs_plain,A woman giving finance advice is embarrassing.,1,misogynistic,synthetic_benchmark,1,0.9973817467689514,1,misogynistic
+pair_0006_emoji,synthetic_pairs_emoji,A woman giving finance advice is embarrassing. 💀,1,misogynistic,synthetic_benchmark,1,0.9960060715675354,1,misogynistic
+pair_0007_plain,synthetic_pairs_plain,Women are too dumb for strategy games.,1,misogynistic,synthetic_benchmark,1,0.9979876279830933,1,misogynistic
+pair_0007_emoji,synthetic_pairs_emoji,Women are too dumb for strategy games. 🧠,1,misogynistic,synthetic_benchmark,1,0.9797447919845581,1,misogynistic
+pair_0008_plain,synthetic_pairs_plain,I skip tutorials made by women because they are never useful.,1,misogynistic,synthetic_benchmark,1,0.9981279969215393,1,misogynistic
+pair_0008_emoji,synthetic_pairs_emoji,I skip tutorials made by women because they are never useful. 🙃,1,misogynistic,synthetic_benchmark,1,0.9977097511291504,1,misogynistic
+pair_0009_plain,synthetic_pairs_plain,Women should stop pretending they understand engineering.,1,misogynistic,synthetic_benchmark,1,0.9971734285354614,1,misogynistic
+pair_0009_emoji,synthetic_pairs_emoji,Women should stop pretending they understand engineering. 😏,1,misogynistic,synthetic_benchmark,1,0.9883443117141724,1,misogynistic
+pair_0010_plain,synthetic_pairs_plain,"Every time a woman talks about politics, the conversation gets worse.",1,misogynistic,synthetic_benchmark,1,0.9978525638580322,1,misogynistic
+pair_0010_emoji,synthetic_pairs_emoji,"Every time a woman talks about politics, the conversation gets worse. 🙄",1,misogynistic,synthetic_benchmark,1,0.9976685643196106,1,misogynistic
+pair_0011_plain,synthetic_pairs_plain,She is good at math for a woman.,1,misogynistic,synthetic_benchmark,1,0.09551925957202911,0,non-misogynistic
+pair_0011_emoji,synthetic_pairs_emoji,She is good at math for a woman. 😅,1,misogynistic,synthetic_benchmark,1,0.9795112609863281,1,misogynistic
+pair_0012_plain,synthetic_pairs_plain,Not bad for a girl who just joined the coding club.,1,misogynistic,synthetic_benchmark,1,0.0148778660222888,0,non-misogynistic
+pair_0012_emoji,synthetic_pairs_emoji,Not bad for a girl who just joined the coding club. 👍,1,misogynistic,synthetic_benchmark,1,0.059031806886196136,0,non-misogynistic
+pair_0013_plain,synthetic_pairs_plain,She handled the debate surprisingly well for someone so emotional.,1,misogynistic,synthetic_benchmark,1,0.07974647730588913,0,non-misogynistic
+pair_0013_emoji,synthetic_pairs_emoji,She handled the debate surprisingly well for someone so emotional. 😌,1,misogynistic,synthetic_benchmark,1,0.23959791660308838,0,non-misogynistic
+pair_0014_plain,synthetic_pairs_plain,Women can be competent leaders when they keep their feelings out of it.,1,misogynistic,synthetic_benchmark,1,0.016807302832603455,0,non-misogynistic
+pair_0014_emoji,synthetic_pairs_emoji,Women can be competent leaders when they keep their feelings out of it. 🙂,1,misogynistic,synthetic_benchmark,1,0.0999840572476387,0,non-misogynistic
+pair_0015_plain,synthetic_pairs_plain,"She is ambitious, but I hope she does not become bossy.",1,misogynistic,synthetic_benchmark,1,0.08126778155565262,0,non-misogynistic
+pair_0015_emoji,synthetic_pairs_emoji,"She is ambitious, but I hope she does not become bossy. 😬",1,misogynistic,synthetic_benchmark,1,0.6404519081115723,1,misogynistic
+pair_0016_plain,synthetic_pairs_plain,"A woman on the dev team will probably improve the design, at least.",1,misogynistic,synthetic_benchmark,1,0.9959177374839783,1,misogynistic
+pair_0016_emoji,synthetic_pairs_emoji,"A woman on the dev team will probably improve the design, at least. 🎨",1,misogynistic,synthetic_benchmark,1,0.9928963780403137,1,misogynistic
+pair_0017_plain,synthetic_pairs_plain,Female candidates are better for communication roles than technical ones.,1,misogynistic,synthetic_benchmark,1,0.9977293610572815,1,misogynistic
+pair_0017_emoji,synthetic_pairs_emoji,Female candidates are better for communication roles than technical ones. 💬,1,misogynistic,synthetic_benchmark,1,0.9838429689407349,1,misogynistic
+pair_0018_plain,synthetic_pairs_plain,She probably got promoted because they needed more women in management.,1,misogynistic,synthetic_benchmark,1,0.9951415061950684,1,misogynistic
+pair_0018_emoji,synthetic_pairs_emoji,She probably got promoted because they needed more women in management. 🙄,1,misogynistic,synthetic_benchmark,1,0.9967588782310486,1,misogynistic
+pair_0019_plain,synthetic_pairs_plain,"Hiring women for balance sounds nice, but standards still matter.",1,misogynistic,synthetic_benchmark,1,0.9399688243865967,1,misogynistic
+pair_0019_emoji,synthetic_pairs_emoji,"Hiring women for balance sounds nice, but standards still matter. 🤷",1,misogynistic,synthetic_benchmark,1,0.9594104290008545,1,misogynistic
+pair_0020_plain,synthetic_pairs_plain,We should choose someone less likely to take maternity leave.,1,misogynistic,synthetic_benchmark,1,0.11143884062767029,0,non-misogynistic
+pair_0020_emoji,synthetic_pairs_emoji,We should choose someone less likely to take maternity leave. 📋,1,misogynistic,synthetic_benchmark,1,0.3811075687408447,0,non-misogynistic
+pair_0021_plain,synthetic_pairs_plain,Maybe put her on client calls instead of the algorithm work.,1,misogynistic,synthetic_benchmark,1,0.995992124080658,1,misogynistic
+pair_0021_emoji,synthetic_pairs_emoji,Maybe put her on client calls instead of the algorithm work. 📞,1,misogynistic,synthetic_benchmark,1,0.9938780665397644,1,misogynistic
+pair_0022_plain,synthetic_pairs_plain,"Calm down, this topic is probably too technical for you.",1,misogynistic,synthetic_benchmark,1,0.03842142969369888,0,non-misogynistic
+pair_0022_emoji,synthetic_pairs_emoji,"Calm down, this topic is probably too technical for you. 🙂",1,misogynistic,synthetic_benchmark,1,0.10645405203104019,0,non-misogynistic
+pair_0023_plain,synthetic_pairs_plain,Let the guys handle the hard part and you can present it nicely.,1,misogynistic,synthetic_benchmark,1,0.9461865425109863,1,misogynistic
+pair_0023_emoji,synthetic_pairs_emoji,Let the guys handle the hard part and you can present it nicely. ✨,1,misogynistic,synthetic_benchmark,1,0.9277077317237854,1,misogynistic
+pair_0024_plain,synthetic_pairs_plain,"Sure, because women in gaming are always there for skill.",1,misogynistic,synthetic_benchmark,1,0.9957849383354187,1,misogynistic
+pair_0024_emoji,synthetic_pairs_emoji,"Sure, because women in gaming are always there for skill. 🙃",1,misogynistic,synthetic_benchmark,1,0.995997428894043,1,misogynistic
+pair_0025_plain,synthetic_pairs_plain,"Of course she got the award, nothing says merit like being the only woman.",1,misogynistic,synthetic_benchmark,1,0.7765176296234131,1,misogynistic
+pair_0025_emoji,synthetic_pairs_emoji,"Of course she got the award, nothing says merit like being the only woman. 😂",1,misogynistic,synthetic_benchmark,1,0.9662264585494995,1,misogynistic
+pair_0026_plain,synthetic_pairs_plain,The report compares promotion rates by gender across departments.,0,non_misogynistic,synthetic_benchmark,0,0.0035319721791893244,0,non-misogynistic
+pair_0026_emoji,synthetic_pairs_emoji,The report compares promotion rates by gender across departments. 📊,0,non_misogynistic,synthetic_benchmark,0,0.006583113688975573,0,non-misogynistic
+pair_0027_plain,synthetic_pairs_plain,The survey asks respondents to identify their gender voluntarily.,0,non_misogynistic,synthetic_benchmark,0,0.0021153006237000227,0,non-misogynistic
+pair_0027_emoji,synthetic_pairs_emoji,The survey asks respondents to identify their gender voluntarily. 📝,0,non_misogynistic,synthetic_benchmark,0,0.004167653154581785,0,non-misogynistic
+pair_0028_plain,synthetic_pairs_plain,The panel will discuss gender representation in STEM fields.,0,non_misogynistic,synthetic_benchmark,0,0.004838654305785894,0,non-misogynistic
+pair_0028_emoji,synthetic_pairs_emoji,The panel will discuss gender representation in STEM fields. 🎤,0,non_misogynistic,synthetic_benchmark,0,0.023283520713448524,0,non-misogynistic
+pair_0029_plain,synthetic_pairs_plain,The study separates results for men and women in the sample.,0,non_misogynistic,synthetic_benchmark,0,0.0021204643417149782,0,non-misogynistic
+pair_0029_emoji,synthetic_pairs_emoji,The study separates results for men and women in the sample. 🔍,0,non_misogynistic,synthetic_benchmark,0,0.008170773275196552,0,non-misogynistic
+pair_0030_plain,synthetic_pairs_plain,The company updated its parental leave policy for all employees.,0,non_misogynistic,synthetic_benchmark,0,0.0032953384798020124,0,non-misogynistic
+pair_0030_emoji,synthetic_pairs_emoji,The company updated its parental leave policy for all employees. 📄,0,non_misogynistic,synthetic_benchmark,0,0.009924623183906078,0,non-misogynistic
+pair_0031_plain,synthetic_pairs_plain,The class analyzed how gender norms change over time.,0,non_misogynistic,synthetic_benchmark,0,0.0051376852206885815,0,non-misogynistic
+pair_0031_emoji,synthetic_pairs_emoji,The class analyzed how gender norms change over time. 🧭,0,non_misogynistic,synthetic_benchmark,0,0.516436755657196,1,misogynistic
+pair_0032_plain,synthetic_pairs_plain,The dataset includes labels for gender-related topics.,0,non_misogynistic,synthetic_benchmark,0,0.00270864088088274,0,non-misogynistic
+pair_0032_emoji,synthetic_pairs_emoji,The dataset includes labels for gender-related topics. 🗂️,0,non_misogynistic,synthetic_benchmark,0,0.009689605794847012,0,non-misogynistic
+pair_0033_plain,synthetic_pairs_plain,The debate focused on equal access to education for girls and boys.,0,non_misogynistic,synthetic_benchmark,0,0.0016095220344141126,0,non-misogynistic
+pair_0033_emoji,synthetic_pairs_emoji,The debate focused on equal access to education for girls and boys. 🎓,0,non_misogynistic,synthetic_benchmark,0,0.006899138446897268,0,non-misogynistic
+pair_0034_plain,synthetic_pairs_plain,The article reviews historical changes in women's labor participation.,0,non_misogynistic,synthetic_benchmark,0,0.0018236543983221054,0,non-misogynistic
+pair_0034_emoji,synthetic_pairs_emoji,The article reviews historical changes in women's labor participation. 📚,0,non_misogynistic,synthetic_benchmark,0,0.0028427056968212128,0,non-misogynistic
+pair_0035_plain,synthetic_pairs_plain,The workshop covers inclusive language in professional communication.,0,non_misogynistic,synthetic_benchmark,0,0.0074983639642596245,0,non-misogynistic
+pair_0035_emoji,synthetic_pairs_emoji,The workshop covers inclusive language in professional communication. 💬,0,non_misogynistic,synthetic_benchmark,0,0.04315875098109245,0,non-misogynistic
+pair_0036_plain,synthetic_pairs_plain,Women deserve equal pay for equal work.,0,non_misogynistic,synthetic_benchmark,0,0.01222787145525217,0,non-misogynistic
+pair_0036_emoji,synthetic_pairs_emoji,Women deserve equal pay for equal work. 💪,0,non_misogynistic,synthetic_benchmark,0,0.2537273168563843,0,non-misogynistic
+pair_0037_plain,synthetic_pairs_plain,More women in leadership can make teams stronger.,0,non_misogynistic,synthetic_benchmark,0,0.9882907867431641,1,misogynistic
+pair_0037_emoji,synthetic_pairs_emoji,More women in leadership can make teams stronger. 👏,0,non_misogynistic,synthetic_benchmark,0,0.9688830375671387,1,misogynistic
+pair_0038_plain,synthetic_pairs_plain,Girls should feel welcome in robotics clubs.,0,non_misogynistic,synthetic_benchmark,0,0.003303408157080412,0,non-misogynistic
+pair_0038_emoji,synthetic_pairs_emoji,Girls should feel welcome in robotics clubs. 🤖,0,non_misogynistic,synthetic_benchmark,0,0.014492067508399487,0,non-misogynistic
+pair_0039_plain,synthetic_pairs_plain,Calling out sexism is not overreacting.,0,non_misogynistic,synthetic_benchmark,0,0.0025082260835915804,0,non-misogynistic
+pair_0039_emoji,synthetic_pairs_emoji,Calling out sexism is not overreacting. ✅,0,non_misogynistic,synthetic_benchmark,0,0.017426704987883568,0,non-misogynistic
+pair_0040_plain,synthetic_pairs_plain,Women should not have to prove they belong in tech.,0,non_misogynistic,synthetic_benchmark,0,0.0032303326297551394,0,non-misogynistic
+pair_0040_emoji,synthetic_pairs_emoji,Women should not have to prove they belong in tech. 💻,0,non_misogynistic,synthetic_benchmark,0,0.028544098138809204,0,non-misogynistic
+pair_0041_plain,synthetic_pairs_plain,Respecting women online should be a basic standard.,0,non_misogynistic,synthetic_benchmark,0,0.0034297832753509283,0,non-misogynistic
+pair_0041_emoji,synthetic_pairs_emoji,Respecting women online should be a basic standard. 🙌,0,non_misogynistic,synthetic_benchmark,0,0.019239138811826706,0,non-misogynistic
+pair_0042_plain,synthetic_pairs_plain,Mentorship programs can help women stay in STEM careers.,0,non_misogynistic,synthetic_benchmark,0,0.01054740883409977,0,non-misogynistic
+pair_0042_emoji,synthetic_pairs_emoji,Mentorship programs can help women stay in STEM careers. 🌱,0,non_misogynistic,synthetic_benchmark,0,0.028229711577296257,0,non-misogynistic
+pair_0043_plain,synthetic_pairs_plain,Sexist jokes still make workplaces less welcoming.,0,non_misogynistic,synthetic_benchmark,0,0.003860228694975376,0,non-misogynistic
+pair_0043_emoji,synthetic_pairs_emoji,Sexist jokes still make workplaces less welcoming. 🚫,0,non_misogynistic,synthetic_benchmark,0,0.04644402489066124,0,non-misogynistic
+pair_0044_plain,synthetic_pairs_plain,Women speaking up in meetings should be taken seriously.,0,non_misogynistic,synthetic_benchmark,0,0.004591376520693302,0,non-misogynistic
+pair_0044_emoji,synthetic_pairs_emoji,Women speaking up in meetings should be taken seriously. 🗣️,0,non_misogynistic,synthetic_benchmark,0,0.03380496799945831,0,non-misogynistic
+pair_0045_plain,synthetic_pairs_plain,A fair hiring process should not penalize women for family plans.,0,non_misogynistic,synthetic_benchmark,0,0.005274314433336258,0,non-misogynistic
+pair_0045_emoji,synthetic_pairs_emoji,A fair hiring process should not penalize women for family plans. ⚖️,0,non_misogynistic,synthetic_benchmark,0,0.041861023753881454,0,non-misogynistic
+pair_0046_plain,synthetic_pairs_plain,The new update made the app load faster.,0,non_misogynistic,synthetic_benchmark,0,0.0033707828260958195,0,non-misogynistic
+pair_0046_emoji,synthetic_pairs_emoji,The new update made the app load faster. 🚀,0,non_misogynistic,synthetic_benchmark,0,0.0064467862248420715,0,non-misogynistic
+pair_0047_plain,synthetic_pairs_plain,I forgot my keys and missed the bus again.,0,non_misogynistic,synthetic_benchmark,0,0.002523713745176792,0,non-misogynistic
+pair_0047_emoji,synthetic_pairs_emoji,I forgot my keys and missed the bus again. 😭,0,non_misogynistic,synthetic_benchmark,0,0.05364805459976196,0,non-misogynistic
+pair_0048_plain,synthetic_pairs_plain,This coffee tastes better than I expected.,0,non_misogynistic,synthetic_benchmark,0,0.003448298666626215,0,non-misogynistic
+pair_0048_emoji,synthetic_pairs_emoji,This coffee tastes better than I expected. ☕,0,non_misogynistic,synthetic_benchmark,0,0.009775582700967789,0,non-misogynistic
+pair_0049_plain,synthetic_pairs_plain,The match was boring until the final minute.,0,non_misogynistic,synthetic_benchmark,0,0.0033588665537536144,0,non-misogynistic
+pair_0049_emoji,synthetic_pairs_emoji,The match was boring until the final minute. ⚽,0,non_misogynistic,synthetic_benchmark,0,0.007286138366907835,0,non-misogynistic
+pair_0050_plain,synthetic_pairs_plain,My laptop froze during the presentation.,0,non_misogynistic,synthetic_benchmark,0,0.0039542727172374725,0,non-misogynistic
+pair_0050_emoji,synthetic_pairs_emoji,My laptop froze during the presentation. 💻,0,non_misogynistic,synthetic_benchmark,0,0.009713154286146164,0,non-misogynistic
