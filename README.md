@@ -37,8 +37,8 @@ metrics used in the report, shows the analysis tables used in the report, and
 prints cached MAMI CLIP/RoBERTa+CLIP metrics. It never trains or fine-tunes a
 model. By default it reads saved result files from `results/`.
 
-The repository uses Git LFS for the large model checkpoints and MAMI image
-files. After cloning, run:
+The repository uses Git LFS for the large model checkpoints. After cloning,
+run:
 
 ```bash
 git lfs install
@@ -160,9 +160,20 @@ What these commands do:
 - `create_mixed_roberta_dataset.py` creates the mixed RoBERTa train/validation
   and held-out post/OCR test splits under `datasets/roberta_mixed_post_ocr/`.
 
-The MAMI image dataset is also tracked through Git LFS in this repository. If
-LFS files were not pulled, or if you are reconstructing the project manually, it
-must be placed at:
+The MAMI image dataset is not tracked in this repository. Download it manually
+from the shared Google Drive folder:
+
+```text
+https://drive.google.com/drive/folders/1x04eqdhH_JBadUeutIf02szK_778mmHH?usp=sharing
+```
+
+If the downloaded archive asks for a password, use:
+
+```text
+*MaMiSemEval2022!
+```
+
+Then extract or move the dataset so that it is placed at:
 
 ```text
 datasets/MAMI/
@@ -170,7 +181,13 @@ datasets/MAMI/
 ├── validation.tsv
 ├── test.tsv
 └── MAMI_2022_images/
+    ├── training_images/
+    └── test_images/
 ```
+
+In other words, after installation the repository root should contain
+`datasets/MAMI/train.tsv`, `datasets/MAMI/validation.tsv`, and
+`datasets/MAMI/MAMI_2022_images/`.
 
 Current local dataset sizes:
 
@@ -182,12 +199,13 @@ datasets/online-misogyny-eacl2021-main/    ~3.3 MB
 datasets/post_ocr_dataset.csv              ~2.1 MB
 datasets/roberta_mixed_post_ocr/           ~16 MB
 datasets/synthetic/                        ~746 KB
-datasets/MAMI/                             ~1.8 GB
+datasets/MAMI/                             ~1.8 GB, manually installed
 ```
 
 The raw external dataset folders can be regenerated with the scripts above. The
-MAMI folder should not be pushed directly to normal Git because it is about
-1.8 GB and contains many image files; it is tracked here with Git LFS.
+MAMI folder should not be pushed to Git because it is about 1.8 GB and contains
+many image files. It is ignored by `.gitignore` and should be installed
+manually from the Drive link above.
 
 ## Results and model artifacts
 

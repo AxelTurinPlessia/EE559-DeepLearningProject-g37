@@ -16,9 +16,8 @@ datasets/*
 !datasets/post_ocr_dataset.csv
 !datasets/synthetic/
 !datasets/synthetic/**
-!datasets/MAMI/
-!datasets/MAMI/**
-datasets/MAMI/**/.DS_Store
+datasets/MAMI/
+datasets/MAMI/**
 fruit_dataset/
 
 *.pt
