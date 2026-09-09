@@ -11,7 +11,7 @@ Our goal is to develop, train, and evaluate deep learning models for misogyny de
 - Axel Turin-Plessia
 
 ## Project Deliverables
-- [Final Report](./Report_Group37.pdf)
+- [Final Report](./Report_group37.pdf)
 - [Project Poster](./Poster_345240_346164_362559.pdf)
 
 ## Repository structure
