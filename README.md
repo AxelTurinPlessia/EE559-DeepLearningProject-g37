@@ -10,6 +10,9 @@ Our goal is to develop, train, and evaluate deep learning models for misogyny de
 - Clément Meddeb
 - Axel Turin-Plessia
 
+## Project Deliverables
+- [Final Report](./Report_Group37.pdf)
+- [Project Poster](./Poster_345240_346164_362559.pdf)
 
 ## Repository structure
 ```text
